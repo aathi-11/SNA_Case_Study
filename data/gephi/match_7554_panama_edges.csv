@@ -1,0 +1,68 @@
+Source,Target,Type,Weight,Distance,Avg_Pass_Distance,Progressive_Passes
+José Luis Rodríguez Francis,Erick Javier Davis Grajales,Directed,6,0.16666666666666666,10.362231283333333,0
+José Luis Rodríguez Francis,Edgar Yoel Bárcenas Herrera,Directed,1,1.0,18.973665,0
+José Luis Rodríguez Francis,Fidel Escobar Mendieta,Directed,2,0.5,22.3161135,0
+José Luis Rodríguez Francis,Gabriel Enrique Gómez Girón,Directed,3,0.3333333333333333,15.830123,0
+José Luis Rodríguez Francis,Aníbal Cesis Godoy,Directed,7,0.14285714285714285,13.171277442857143,0
+Blas Antonio Miguel Pérez Ortega,José Luis Rodríguez Francis,Directed,1,1.0,4.472136,0
+Blas Antonio Miguel Pérez Ortega,Erick Javier Davis Grajales,Directed,1,1.0,18.0,0
+Blas Antonio Miguel Pérez Ortega,Gabriel Enrique Gómez Girón,Directed,3,0.3333333333333333,13.316115233333335,0
+Blas Antonio Miguel Pérez Ortega,Michael Amir Murillo Bermudez,Directed,1,1.0,29.068884,0
+Blas Antonio Miguel Pérez Ortega,Armando Enrique Cooper Whitaker,Directed,2,0.5,3.66754375,0
+Blas Antonio Miguel Pérez Ortega,Aníbal Cesis Godoy,Directed,1,1.0,26.019224,0
+Erick Javier Davis Grajales,José Luis Rodríguez Francis,Directed,11,0.09090909090909091,11.878980863636365,3
+Erick Javier Davis Grajales,Blas Antonio Miguel Pérez Ortega,Directed,2,0.5,41.3391895,2
+Erick Javier Davis Grajales,Edgar Yoel Bárcenas Herrera,Directed,1,1.0,5.8309517,0
+Erick Javier Davis Grajales,Fidel Escobar Mendieta,Directed,4,0.25,17.823582000000002,0
+Erick Javier Davis Grajales,Gabriel Enrique Gómez Girón,Directed,4,0.25,18.1037685,0
+Erick Javier Davis Grajales,Aníbal Cesis Godoy,Directed,7,0.14285714285714285,9.862796242857144,0
+Román Aureliano Torres Morcillo,Blas Antonio Miguel Pérez Ortega,Directed,1,1.0,46.52956,1
+Román Aureliano Torres Morcillo,Erick Javier Davis Grajales,Directed,2,0.5,61.7465215,0
+Román Aureliano Torres Morcillo,Fidel Escobar Mendieta,Directed,5,0.2,19.4756288,0
+Román Aureliano Torres Morcillo,Michael Amir Murillo Bermudez,Directed,5,0.2,19.603716,5
+Jaime Manuel Penedo Cano,Blas Antonio Miguel Pérez Ortega,Directed,4,0.25,65.95155075,4
+Jaime Manuel Penedo Cano,Erick Javier Davis Grajales,Directed,1,1.0,44.94441,1
+Jaime Manuel Penedo Cano,Aníbal Cesis Godoy,Directed,1,1.0,21.023796,1
+Edgar Yoel Bárcenas Herrera,José Luis Rodríguez Francis,Directed,1,1.0,19.79899,1
+Edgar Yoel Bárcenas Herrera,Blas Antonio Miguel Pérez Ortega,Directed,1,1.0,27.294687,1
+Edgar Yoel Bárcenas Herrera,Erick Javier Davis Grajales,Directed,1,1.0,3.1622777,0
+Edgar Yoel Bárcenas Herrera,Gabriel Enrique Gómez Girón,Directed,1,1.0,28.86174,0
+Edgar Yoel Bárcenas Herrera,Michael Amir Murillo Bermudez,Directed,1,1.0,5.3851647,0
+Edgar Yoel Bárcenas Herrera,Armando Enrique Cooper Whitaker,Directed,2,0.5,11.357731000000001,0
+Edgar Yoel Bárcenas Herrera,Aníbal Cesis Godoy,Directed,4,0.25,15.905840750000001,0
+Fidel Escobar Mendieta,Erick Javier Davis Grajales,Directed,8,0.125,22.84165905,4
+Fidel Escobar Mendieta,Román Aureliano Torres Morcillo,Directed,5,0.2,28.1259926,0
+Fidel Escobar Mendieta,Michael Amir Murillo Bermudez,Directed,3,0.3333333333333333,36.92939366666667,2
+Fidel Escobar Mendieta,Aníbal Cesis Godoy,Directed,4,0.25,14.7703485,3
+Gabriel Enrique Gómez Girón,José Luis Rodríguez Francis,Directed,2,0.5,19.7036825,1
+Gabriel Enrique Gómez Girón,Blas Antonio Miguel Pérez Ortega,Directed,1,1.0,7.071068,0
+Gabriel Enrique Gómez Girón,Erick Javier Davis Grajales,Directed,6,0.16666666666666666,28.165777833333333,0
+Gabriel Enrique Gómez Girón,Román Aureliano Torres Morcillo,Directed,2,0.5,29.7256395,0
+Gabriel Enrique Gómez Girón,Jaime Manuel Penedo Cano,Directed,1,1.0,29.546574,0
+Gabriel Enrique Gómez Girón,Fidel Escobar Mendieta,Directed,3,0.3333333333333333,14.2526315,0
+Gabriel Enrique Gómez Girón,Michael Amir Murillo Bermudez,Directed,3,0.3333333333333333,32.141336333333335,0
+Gabriel Enrique Gómez Girón,Armando Enrique Cooper Whitaker,Directed,1,1.0,11.7046995,0
+Gabriel Enrique Gómez Girón,Aníbal Cesis Godoy,Directed,4,0.25,9.842240575,0
+Michael Amir Murillo Bermudez,José Luis Rodríguez Francis,Directed,1,1.0,21.954498,1
+Michael Amir Murillo Bermudez,Blas Antonio Miguel Pérez Ortega,Directed,1,1.0,29.12044,0
+Michael Amir Murillo Bermudez,Román Aureliano Torres Morcillo,Directed,4,0.25,16.429384,0
+Michael Amir Murillo Bermudez,Edgar Yoel Bárcenas Herrera,Directed,3,0.3333333333333333,28.069087,1
+Michael Amir Murillo Bermudez,Gabriel Enrique Gómez Girón,Directed,1,1.0,17.888544,0
+Michael Amir Murillo Bermudez,Armando Enrique Cooper Whitaker,Directed,10,0.1,14.5468694,5
+Michael Amir Murillo Bermudez,Aníbal Cesis Godoy,Directed,1,1.0,10.770329,0
+Armando Enrique Cooper Whitaker,José Luis Rodríguez Francis,Directed,1,1.0,21.633308,1
+Armando Enrique Cooper Whitaker,Erick Javier Davis Grajales,Directed,1,1.0,48.507732,1
+Armando Enrique Cooper Whitaker,Román Aureliano Torres Morcillo,Directed,1,1.0,29.068884,0
+Armando Enrique Cooper Whitaker,Edgar Yoel Bárcenas Herrera,Directed,1,1.0,10.440307,0
+Armando Enrique Cooper Whitaker,Gabriel Enrique Gómez Girón,Directed,3,0.3333333333333333,13.794830666666668,0
+Armando Enrique Cooper Whitaker,Michael Amir Murillo Bermudez,Directed,5,0.2,13.6570747,0
+Armando Enrique Cooper Whitaker,Aníbal Cesis Godoy,Directed,3,0.3333333333333333,14.650019666666665,0
+Aníbal Cesis Godoy,José Luis Rodríguez Francis,Directed,5,0.2,8.4188188,1
+Aníbal Cesis Godoy,Blas Antonio Miguel Pérez Ortega,Directed,3,0.3333333333333333,9.559751833333333,2
+Aníbal Cesis Godoy,Erick Javier Davis Grajales,Directed,6,0.16666666666666666,16.865753216666665,1
+Aníbal Cesis Godoy,Román Aureliano Torres Morcillo,Directed,1,1.0,28.84441,0
+Aníbal Cesis Godoy,Edgar Yoel Bárcenas Herrera,Directed,4,0.25,27.986919375,2
+Aníbal Cesis Godoy,Fidel Escobar Mendieta,Directed,3,0.3333333333333333,20.206227333333334,0
+Aníbal Cesis Godoy,Gabriel Enrique Gómez Girón,Directed,5,0.2,13.6413352,0
+Aníbal Cesis Godoy,Michael Amir Murillo Bermudez,Directed,3,0.3333333333333333,25.211502666666664,1
+Aníbal Cesis Godoy,Armando Enrique Cooper Whitaker,Directed,3,0.3333333333333333,20.175730333333334,0

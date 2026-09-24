@@ -1,0 +1,74 @@
+Source,Target,Type,Weight,Distance,Avg_Pass_Distance,Progressive_Passes
+Ismaïla Sarr,Idrissa Gana Gueye,Directed,4,0.25,9.970071175000001,0
+Ismaïla Sarr,Mame Biram Diouf,Directed,2,0.5,9.296909,0
+Ismaïla Sarr,Sadio Mané,Directed,1,1.0,17.029387,0
+Ismaïla Sarr,Salif Sané,Directed,1,1.0,5.8309517,0
+Ismaïla Sarr,Alfred John Momar N'Diaye,Directed,1,1.0,10.770329,0
+Ismaïla Sarr,Moussa Wagué,Directed,3,0.3333333333333333,9.168477666666666,0
+Youssouf Sabaly,Idrissa Gana Gueye,Directed,8,0.125,8.717262875,0
+Youssouf Sabaly,Mame Biram Diouf,Directed,1,1.0,6.0,0
+Youssouf Sabaly,Sadio Mané,Directed,8,0.125,8.5589638,0
+Youssouf Sabaly,Khadim N'Diaye,Directed,1,1.0,30.232433,0
+Youssouf Sabaly,M'Baye Babacar Niang,Directed,9,0.1111111111111111,12.738180388888889,3
+Youssouf Sabaly,Moussa Wagué,Directed,1,1.0,39.962482,0
+Youssouf Sabaly,Kalidou Koulibaly,Directed,3,0.3333333333333333,16.109970999999998,0
+Idrissa Gana Gueye,Ismaïla Sarr,Directed,4,0.25,16.875248,1
+Idrissa Gana Gueye,Youssouf Sabaly,Directed,4,0.25,4.8975092,0
+Idrissa Gana Gueye,Sadio Mané,Directed,6,0.16666666666666666,18.840638416666668,3
+Idrissa Gana Gueye,M'Baye Babacar Niang,Directed,2,0.5,13.6565535,0
+Idrissa Gana Gueye,Salif Sané,Directed,5,0.2,17.6455671,0
+Idrissa Gana Gueye,Alfred John Momar N'Diaye,Directed,4,0.25,23.5534375,0
+Idrissa Gana Gueye,Moussa Wagué,Directed,5,0.2,21.964111199999998,2
+Idrissa Gana Gueye,Kalidou Koulibaly,Directed,3,0.3333333333333333,20.440612666666667,0
+Mame Biram Diouf,Ismaïla Sarr,Directed,1,1.0,11.7046995,0
+Mame Biram Diouf,Idrissa Gana Gueye,Directed,1,1.0,13.341664,0
+Mame Biram Diouf,M'Baye Babacar Niang,Directed,2,0.5,10.810323499999999,0
+Mame Biram Diouf,Moussa Wagué,Directed,1,1.0,19.026299,0
+Mame Biram Diouf,Kalidou Koulibaly,Directed,1,1.0,50.47772,0
+Sadio Mané,Ismaïla Sarr,Directed,1,1.0,51.78803,0
+Sadio Mané,Youssouf Sabaly,Directed,4,0.25,9.3068835,0
+Sadio Mané,Idrissa Gana Gueye,Directed,4,0.25,17.606548,0
+Sadio Mané,Khadim N'Diaye,Directed,1,1.0,25.495098,0
+Sadio Mané,M'Baye Babacar Niang,Directed,4,0.25,9.270690675,0
+Sadio Mané,Salif Sané,Directed,5,0.2,29.868724399999998,0
+Sadio Mané,Alfred John Momar N'Diaye,Directed,3,0.3333333333333333,24.376711,0
+Sadio Mané,Kalidou Koulibaly,Directed,2,0.5,21.9837025,0
+Khadim N'Diaye,Ismaïla Sarr,Directed,1,1.0,49.648766,1
+Khadim N'Diaye,Mame Biram Diouf,Directed,1,1.0,81.394104,1
+Khadim N'Diaye,M'Baye Babacar Niang,Directed,3,0.3333333333333333,72.15217,3
+Khadim N'Diaye,Moussa Wagué,Directed,1,1.0,38.587563,1
+M'Baye Babacar Niang,Ismaïla Sarr,Directed,1,1.0,66.730804,1
+M'Baye Babacar Niang,Youssouf Sabaly,Directed,8,0.125,18.0888123125,4
+M'Baye Babacar Niang,Idrissa Gana Gueye,Directed,2,0.5,16.9892995,0
+M'Baye Babacar Niang,Mame Biram Diouf,Directed,1,1.0,18.35756,0
+M'Baye Babacar Niang,Sadio Mané,Directed,7,0.14285714285714285,13.433964528571428,0
+M'Baye Babacar Niang,Salif Sané,Directed,1,1.0,38.470768,0
+M'Baye Babacar Niang,Alfred John Momar N'Diaye,Directed,1,1.0,11.045361,0
+M'Baye Babacar Niang,Kalidou Koulibaly,Directed,2,0.5,26.9164345,0
+Salif Sané,Ismaïla Sarr,Directed,3,0.3333333333333333,13.794196399999999,2
+Salif Sané,Youssouf Sabaly,Directed,1,1.0,19.416489,0
+Salif Sané,Idrissa Gana Gueye,Directed,2,0.5,22.532713,1
+Salif Sané,Khadim N'Diaye,Directed,4,0.25,25.501673999999998,0
+Salif Sané,M'Baye Babacar Niang,Directed,2,0.5,30.9629115,1
+Salif Sané,Alfred John Momar N'Diaye,Directed,4,0.25,27.329206499999998,1
+Salif Sané,Moussa Wagué,Directed,3,0.3333333333333333,29.979668,1
+Salif Sané,Kalidou Koulibaly,Directed,5,0.2,33.1373776,0
+Alfred John Momar N'Diaye,Ismaïla Sarr,Directed,1,1.0,34.828148,1
+Alfred John Momar N'Diaye,Youssouf Sabaly,Directed,1,1.0,21.095022,1
+Alfred John Momar N'Diaye,Idrissa Gana Gueye,Directed,2,0.5,13.13288885,0
+Alfred John Momar N'Diaye,Mame Biram Diouf,Directed,4,0.25,23.155348,3
+Alfred John Momar N'Diaye,Sadio Mané,Directed,1,1.0,20.0,1
+Alfred John Momar N'Diaye,M'Baye Babacar Niang,Directed,3,0.3333333333333333,14.111401999999998,0
+Alfred John Momar N'Diaye,Salif Sané,Directed,3,0.3333333333333333,28.651364666666666,0
+Alfred John Momar N'Diaye,Moussa Wagué,Directed,1,1.0,39.051247,1
+Alfred John Momar N'Diaye,Kalidou Koulibaly,Directed,1,1.0,16.27882,0
+Moussa Wagué,Ismaïla Sarr,Directed,4,0.25,10.44041325,0
+Moussa Wagué,Idrissa Gana Gueye,Directed,5,0.2,9.812545199999999,1
+Moussa Wagué,Sadio Mané,Directed,2,0.5,9.621299,0
+Moussa Wagué,Salif Sané,Directed,4,0.25,21.603635750000002,0
+Kalidou Koulibaly,Youssouf Sabaly,Directed,2,0.5,26.1715005,2
+Kalidou Koulibaly,Idrissa Gana Gueye,Directed,2,0.5,18.4407775,0
+Kalidou Koulibaly,Sadio Mané,Directed,3,0.3333333333333333,16.998825566666667,2
+Kalidou Koulibaly,M'Baye Babacar Niang,Directed,1,1.0,27.856777,1
+Kalidou Koulibaly,Salif Sané,Directed,5,0.2,30.713297999999998,0
+Kalidou Koulibaly,Alfred John Momar N'Diaye,Directed,5,0.2,19.1551456,2

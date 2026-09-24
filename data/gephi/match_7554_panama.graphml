@@ -1,0 +1,506 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="progressive_passes" attr.type="long"/>
+<key id="d10" for="edge" attr.name="avg_distance" attr.type="double"/>
+<key id="d9" for="edge" attr.name="distance" attr.type="double"/>
+<key id="d8" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d7" for="node" attr.name="passes_received" attr.type="long"/>
+<key id="d6" for="node" attr.name="passes_made" attr.type="long"/>
+<key id="d5" for="node" attr.name="avg_y" attr.type="double"/>
+<key id="d4" for="node" attr.name="avg_x" attr.type="double"/>
+<key id="d3" for="node" attr.name="team" attr.type="string"/>
+<key id="d2" for="node" attr.name="player_id" attr.type="long"/>
+<key id="d1" for="graph" attr.name="team_name" attr.type="string"/>
+<key id="d0" for="graph" attr.name="match_id" attr.type="long"/>
+<graph edgedefault="directed"><data key="d0">7554</data>
+<data key="d1">Panama</data>
+<node id="José Luis Rodríguez Francis">
+  <data key="d2">5628</data>
+  <data key="d3">Panama</data>
+  <data key="d4">83.0</data>
+  <data key="d5">11.105263157894736</data>
+  <data key="d6">19</data>
+  <data key="d7">22</data>
+</node>
+<node id="Blas Antonio Miguel Pérez Ortega">
+  <data key="d2">5631</data>
+  <data key="d3">Panama</data>
+  <data key="d4">73.0</data>
+  <data key="d5">28.333333333333332</data>
+  <data key="d6">9</data>
+  <data key="d7">13</data>
+</node>
+<node id="Erick Javier Davis Grajales">
+  <data key="d2">5634</data>
+  <data key="d3">Panama</data>
+  <data key="d4">62.310344827586206</data>
+  <data key="d5">5.862068965517241</data>
+  <data key="d6">29</data>
+  <data key="d7">32</data>
+</node>
+<node id="Román Aureliano Torres Morcillo">
+  <data key="d2">5635</data>
+  <data key="d3">Panama</data>
+  <data key="d4">39.61538461538461</data>
+  <data key="d5">63.38461538461539</data>
+  <data key="d6">13</data>
+  <data key="d7">13</data>
+</node>
+<node id="Jaime Manuel Penedo Cano">
+  <data key="d2">5636</data>
+  <data key="d3">Panama</data>
+  <data key="d4">12.666666666666666</data>
+  <data key="d5">37.666666666666664</data>
+  <data key="d6">6</data>
+  <data key="d7">1</data>
+</node>
+<node id="Edgar Yoel Bárcenas Herrera">
+  <data key="d2">5637</data>
+  <data key="d3">Panama</data>
+  <data key="d4">76.45454545454545</data>
+  <data key="d5">49.90909090909091</data>
+  <data key="d6">11</data>
+  <data key="d7">10</data>
+</node>
+<node id="Fidel Escobar Mendieta">
+  <data key="d2">5638</data>
+  <data key="d3">Panama</data>
+  <data key="d4">43.4</data>
+  <data key="d5">28.35</data>
+  <data key="d6">20</data>
+  <data key="d7">17</data>
+</node>
+<node id="Gabriel Enrique Gómez Girón">
+  <data key="d2">5640</data>
+  <data key="d3">Panama</data>
+  <data key="d4">56.91304347826087</data>
+  <data key="d5">29.391304347826086</data>
+  <data key="d6">23</data>
+  <data key="d7">20</data>
+</node>
+<node id="Michael Amir Murillo Bermudez">
+  <data key="d2">5641</data>
+  <data key="d3">Panama</data>
+  <data key="d4">69.9047619047619</data>
+  <data key="d5">74.0</data>
+  <data key="d6">21</data>
+  <data key="d7">21</data>
+</node>
+<node id="Armando Enrique Cooper Whitaker">
+  <data key="d2">5645</data>
+  <data key="d3">Panama</data>
+  <data key="d4">76.33333333333333</data>
+  <data key="d5">56.2</data>
+  <data key="d6">15</data>
+  <data key="d7">18</data>
+</node>
+<node id="Aníbal Cesis Godoy">
+  <data key="d2">5646</data>
+  <data key="d3">Panama</data>
+  <data key="d4">67.75757575757575</data>
+  <data key="d5">28.575757575757574</data>
+  <data key="d6">33</data>
+  <data key="d7">32</data>
+</node>
+<edge source="José Luis Rodríguez Francis" target="Erick Javier Davis Grajales">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">10.362231283333333</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="José Luis Rodríguez Francis" target="Edgar Yoel Bárcenas Herrera">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">18.973665</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="José Luis Rodríguez Francis" target="Fidel Escobar Mendieta">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">22.3161135</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="José Luis Rodríguez Francis" target="Gabriel Enrique Gómez Girón">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">15.830123</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="José Luis Rodríguez Francis" target="Aníbal Cesis Godoy">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">13.171277442857143</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Blas Antonio Miguel Pérez Ortega" target="José Luis Rodríguez Francis">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">4.472136</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Blas Antonio Miguel Pérez Ortega" target="Erick Javier Davis Grajales">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">18.0</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Blas Antonio Miguel Pérez Ortega" target="Gabriel Enrique Gómez Girón">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">13.316115233333335</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Blas Antonio Miguel Pérez Ortega" target="Michael Amir Murillo Bermudez">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">29.068884</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Blas Antonio Miguel Pérez Ortega" target="Armando Enrique Cooper Whitaker">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">3.66754375</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Blas Antonio Miguel Pérez Ortega" target="Aníbal Cesis Godoy">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">26.019224</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Erick Javier Davis Grajales" target="José Luis Rodríguez Francis">
+  <data key="d8">11</data>
+  <data key="d9">0.09090909090909091</data>
+  <data key="d10">11.878980863636365</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Erick Javier Davis Grajales" target="Blas Antonio Miguel Pérez Ortega">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">41.3391895</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Erick Javier Davis Grajales" target="Edgar Yoel Bárcenas Herrera">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">5.8309517</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Erick Javier Davis Grajales" target="Fidel Escobar Mendieta">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">17.823582000000002</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Erick Javier Davis Grajales" target="Gabriel Enrique Gómez Girón">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">18.1037685</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Erick Javier Davis Grajales" target="Aníbal Cesis Godoy">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">9.862796242857144</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Román Aureliano Torres Morcillo" target="Blas Antonio Miguel Pérez Ortega">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">46.52956</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Román Aureliano Torres Morcillo" target="Erick Javier Davis Grajales">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">61.7465215</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Román Aureliano Torres Morcillo" target="Fidel Escobar Mendieta">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">19.4756288</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Román Aureliano Torres Morcillo" target="Michael Amir Murillo Bermudez">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">19.603716</data>
+  <data key="d11">5</data>
+</edge>
+<edge source="Jaime Manuel Penedo Cano" target="Blas Antonio Miguel Pérez Ortega">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">65.95155075</data>
+  <data key="d11">4</data>
+</edge>
+<edge source="Jaime Manuel Penedo Cano" target="Erick Javier Davis Grajales">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">44.94441</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jaime Manuel Penedo Cano" target="Aníbal Cesis Godoy">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">21.023796</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Edgar Yoel Bárcenas Herrera" target="José Luis Rodríguez Francis">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">19.79899</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Edgar Yoel Bárcenas Herrera" target="Blas Antonio Miguel Pérez Ortega">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">27.294687</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Edgar Yoel Bárcenas Herrera" target="Erick Javier Davis Grajales">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">3.1622777</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Edgar Yoel Bárcenas Herrera" target="Gabriel Enrique Gómez Girón">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">28.86174</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Edgar Yoel Bárcenas Herrera" target="Michael Amir Murillo Bermudez">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">5.3851647</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Edgar Yoel Bárcenas Herrera" target="Armando Enrique Cooper Whitaker">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">11.357731000000001</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Edgar Yoel Bárcenas Herrera" target="Aníbal Cesis Godoy">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">15.905840750000001</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Fidel Escobar Mendieta" target="Erick Javier Davis Grajales">
+  <data key="d8">8</data>
+  <data key="d9">0.125</data>
+  <data key="d10">22.84165905</data>
+  <data key="d11">4</data>
+</edge>
+<edge source="Fidel Escobar Mendieta" target="Román Aureliano Torres Morcillo">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">28.1259926</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Fidel Escobar Mendieta" target="Michael Amir Murillo Bermudez">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">36.92939366666667</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Fidel Escobar Mendieta" target="Aníbal Cesis Godoy">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">14.7703485</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Gabriel Enrique Gómez Girón" target="José Luis Rodríguez Francis">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">19.7036825</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Gabriel Enrique Gómez Girón" target="Blas Antonio Miguel Pérez Ortega">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">7.071068</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gabriel Enrique Gómez Girón" target="Erick Javier Davis Grajales">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">28.165777833333333</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gabriel Enrique Gómez Girón" target="Román Aureliano Torres Morcillo">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">29.7256395</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gabriel Enrique Gómez Girón" target="Jaime Manuel Penedo Cano">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">29.546574</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gabriel Enrique Gómez Girón" target="Fidel Escobar Mendieta">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">14.2526315</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gabriel Enrique Gómez Girón" target="Michael Amir Murillo Bermudez">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">32.141336333333335</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gabriel Enrique Gómez Girón" target="Armando Enrique Cooper Whitaker">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">11.7046995</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gabriel Enrique Gómez Girón" target="Aníbal Cesis Godoy">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">9.842240575</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Michael Amir Murillo Bermudez" target="José Luis Rodríguez Francis">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">21.954498</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Michael Amir Murillo Bermudez" target="Blas Antonio Miguel Pérez Ortega">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">29.12044</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Michael Amir Murillo Bermudez" target="Román Aureliano Torres Morcillo">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">16.429384</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Michael Amir Murillo Bermudez" target="Edgar Yoel Bárcenas Herrera">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">28.069087</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Michael Amir Murillo Bermudez" target="Gabriel Enrique Gómez Girón">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">17.888544</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Michael Amir Murillo Bermudez" target="Armando Enrique Cooper Whitaker">
+  <data key="d8">10</data>
+  <data key="d9">0.1</data>
+  <data key="d10">14.5468694</data>
+  <data key="d11">5</data>
+</edge>
+<edge source="Michael Amir Murillo Bermudez" target="Aníbal Cesis Godoy">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">10.770329</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Armando Enrique Cooper Whitaker" target="José Luis Rodríguez Francis">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">21.633308</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Armando Enrique Cooper Whitaker" target="Erick Javier Davis Grajales">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">48.507732</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Armando Enrique Cooper Whitaker" target="Román Aureliano Torres Morcillo">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">29.068884</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Armando Enrique Cooper Whitaker" target="Edgar Yoel Bárcenas Herrera">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">10.440307</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Armando Enrique Cooper Whitaker" target="Gabriel Enrique Gómez Girón">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">13.794830666666668</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Armando Enrique Cooper Whitaker" target="Michael Amir Murillo Bermudez">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">13.6570747</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Armando Enrique Cooper Whitaker" target="Aníbal Cesis Godoy">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">14.650019666666665</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Aníbal Cesis Godoy" target="José Luis Rodríguez Francis">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">8.4188188</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Aníbal Cesis Godoy" target="Blas Antonio Miguel Pérez Ortega">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">9.559751833333333</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Aníbal Cesis Godoy" target="Erick Javier Davis Grajales">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">16.865753216666665</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Aníbal Cesis Godoy" target="Román Aureliano Torres Morcillo">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">28.84441</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Aníbal Cesis Godoy" target="Edgar Yoel Bárcenas Herrera">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">27.986919375</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Aníbal Cesis Godoy" target="Fidel Escobar Mendieta">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">20.206227333333334</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Aníbal Cesis Godoy" target="Gabriel Enrique Gómez Girón">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">13.6413352</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Aníbal Cesis Godoy" target="Michael Amir Murillo Bermudez">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">25.211502666666664</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Aníbal Cesis Godoy" target="Armando Enrique Cooper Whitaker">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">20.175730333333334</data>
+  <data key="d11">0</data>
+</edge>
+</graph></graphml>

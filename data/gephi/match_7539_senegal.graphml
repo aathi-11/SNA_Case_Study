@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="progressive_passes" attr.type="long"/>
+<key id="d10" for="edge" attr.name="avg_distance" attr.type="double"/>
+<key id="d9" for="edge" attr.name="distance" attr.type="double"/>
+<key id="d8" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d7" for="node" attr.name="passes_received" attr.type="long"/>
+<key id="d6" for="node" attr.name="passes_made" attr.type="long"/>
+<key id="d5" for="node" attr.name="avg_y" attr.type="double"/>
+<key id="d4" for="node" attr.name="avg_x" attr.type="double"/>
+<key id="d3" for="node" attr.name="team" attr.type="string"/>
+<key id="d2" for="node" attr.name="player_id" attr.type="long"/>
+<key id="d1" for="graph" attr.name="team_name" attr.type="string"/>
+<key id="d0" for="graph" attr.name="match_id" attr.type="long"/>
+<graph edgedefault="directed"><data key="d0">7539</data>
+<data key="d1">Senegal</data>
+<node id="Ismaïla Sarr">
+  <data key="d2">2941</data>
+  <data key="d3">Senegal</data>
+  <data key="d4">71.75</data>
+  <data key="d5">69.25</data>
+  <data key="d6">12</data>
+  <data key="d7">16</data>
+</node>
+<node id="Youssouf Sabaly">
+  <data key="d2">3404</data>
+  <data key="d3">Senegal</data>
+  <data key="d4">69.51612903225806</data>
+  <data key="d5">8.483870967741936</data>
+  <data key="d6">31</data>
+  <data key="d7">20</data>
+</node>
+<node id="Idrissa Gana Gueye">
+  <data key="d2">3436</data>
+  <data key="d3">Senegal</data>
+  <data key="d4">59.57575757575758</data>
+  <data key="d5">41.36363636363637</data>
+  <data key="d6">33</data>
+  <data key="d7">30</data>
+</node>
+<node id="Mame Biram Diouf">
+  <data key="d2">3603</data>
+  <data key="d3">Senegal</data>
+  <data key="d4">79.33333333333333</data>
+  <data key="d5">56.666666666666664</data>
+  <data key="d6">6</data>
+  <data key="d7">9</data>
+</node>
+<node id="Sadio Mané">
+  <data key="d2">3629</data>
+  <data key="d3">Senegal</data>
+  <data key="d4">74.875</data>
+  <data key="d5">21.5</data>
+  <data key="d6">24</data>
+  <data key="d7">28</data>
+</node>
+<node id="Khadim N'Diaye">
+  <data key="d2">5659</data>
+  <data key="d3">Senegal</data>
+  <data key="d4">10.333333333333334</data>
+  <data key="d5">46.166666666666664</data>
+  <data key="d6">6</data>
+  <data key="d7">6</data>
+</node>
+<node id="M'Baye Babacar Niang">
+  <data key="d2">5661</data>
+  <data key="d3">Senegal</data>
+  <data key="d4">75.26086956521739</data>
+  <data key="d5">23.043478260869566</data>
+  <data key="d6">23</data>
+  <data key="d7">26</data>
+</node>
+<node id="Salif Sané">
+  <data key="d2">5664</data>
+  <data key="d3">Senegal</data>
+  <data key="d4">44.0</data>
+  <data key="d5">52.541666666666664</data>
+  <data key="d6">24</data>
+  <data key="d7">24</data>
+</node>
+<node id="Alfred John Momar N'Diaye">
+  <data key="d2">5671</data>
+  <data key="d3">Senegal</data>
+  <data key="d4">55.529411764705884</data>
+  <data key="d5">36.11764705882353</data>
+  <data key="d6">17</data>
+  <data key="d7">18</data>
+</node>
+<node id="Moussa Wagué">
+  <data key="d2">5674</data>
+  <data key="d3">Senegal</data>
+  <data key="d4">58.6</data>
+  <data key="d5">73.93333333333334</data>
+  <data key="d6">15</data>
+  <data key="d7">15</data>
+</node>
+<node id="Kalidou Koulibaly">
+  <data key="d2">5675</data>
+  <data key="d3">Senegal</data>
+  <data key="d4">41.333333333333336</data>
+  <data key="d5">22.88888888888889</data>
+  <data key="d6">18</data>
+  <data key="d7">17</data>
+</node>
+<edge source="Ismaïla Sarr" target="Idrissa Gana Gueye">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">9.970071175000001</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ismaïla Sarr" target="Mame Biram Diouf">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">9.296909</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ismaïla Sarr" target="Sadio Mané">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">17.029387</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ismaïla Sarr" target="Salif Sané">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">5.8309517</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ismaïla Sarr" target="Alfred John Momar N'Diaye">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">10.770329</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ismaïla Sarr" target="Moussa Wagué">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">9.168477666666666</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Youssouf Sabaly" target="Idrissa Gana Gueye">
+  <data key="d8">8</data>
+  <data key="d9">0.125</data>
+  <data key="d10">8.717262875</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Youssouf Sabaly" target="Mame Biram Diouf">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">6.0</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Youssouf Sabaly" target="Sadio Mané">
+  <data key="d8">8</data>
+  <data key="d9">0.125</data>
+  <data key="d10">8.5589638</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Youssouf Sabaly" target="Khadim N'Diaye">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">30.232433</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Youssouf Sabaly" target="M'Baye Babacar Niang">
+  <data key="d8">9</data>
+  <data key="d9">0.1111111111111111</data>
+  <data key="d10">12.738180388888889</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Youssouf Sabaly" target="Moussa Wagué">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">39.962482</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Youssouf Sabaly" target="Kalidou Koulibaly">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">16.109970999999998</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Idrissa Gana Gueye" target="Ismaïla Sarr">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">16.875248</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Idrissa Gana Gueye" target="Youssouf Sabaly">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">4.8975092</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Idrissa Gana Gueye" target="Sadio Mané">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">18.840638416666668</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Idrissa Gana Gueye" target="M'Baye Babacar Niang">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">13.6565535</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Idrissa Gana Gueye" target="Salif Sané">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">17.6455671</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Idrissa Gana Gueye" target="Alfred John Momar N'Diaye">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">23.5534375</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Idrissa Gana Gueye" target="Moussa Wagué">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">21.964111199999998</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Idrissa Gana Gueye" target="Kalidou Koulibaly">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">20.440612666666667</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Mame Biram Diouf" target="Ismaïla Sarr">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">11.7046995</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Mame Biram Diouf" target="Idrissa Gana Gueye">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">13.341664</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Mame Biram Diouf" target="M'Baye Babacar Niang">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">10.810323499999999</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Mame Biram Diouf" target="Moussa Wagué">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">19.026299</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Mame Biram Diouf" target="Kalidou Koulibaly">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">50.47772</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Sadio Mané" target="Ismaïla Sarr">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">51.78803</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Sadio Mané" target="Youssouf Sabaly">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">9.3068835</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Sadio Mané" target="Idrissa Gana Gueye">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">17.606548</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Sadio Mané" target="Khadim N'Diaye">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">25.495098</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Sadio Mané" target="M'Baye Babacar Niang">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">9.270690675</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Sadio Mané" target="Salif Sané">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">29.868724399999998</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Sadio Mané" target="Alfred John Momar N'Diaye">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">24.376711</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Sadio Mané" target="Kalidou Koulibaly">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">21.9837025</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Khadim N'Diaye" target="Ismaïla Sarr">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">49.648766</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Khadim N'Diaye" target="Mame Biram Diouf">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">81.394104</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Khadim N'Diaye" target="M'Baye Babacar Niang">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">72.15217</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Khadim N'Diaye" target="Moussa Wagué">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">38.587563</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="M'Baye Babacar Niang" target="Ismaïla Sarr">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">66.730804</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="M'Baye Babacar Niang" target="Youssouf Sabaly">
+  <data key="d8">8</data>
+  <data key="d9">0.125</data>
+  <data key="d10">18.0888123125</data>
+  <data key="d11">4</data>
+</edge>
+<edge source="M'Baye Babacar Niang" target="Idrissa Gana Gueye">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">16.9892995</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="M'Baye Babacar Niang" target="Mame Biram Diouf">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">18.35756</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="M'Baye Babacar Niang" target="Sadio Mané">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">13.433964528571428</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="M'Baye Babacar Niang" target="Salif Sané">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">38.470768</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="M'Baye Babacar Niang" target="Alfred John Momar N'Diaye">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">11.045361</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="M'Baye Babacar Niang" target="Kalidou Koulibaly">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">26.9164345</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Salif Sané" target="Ismaïla Sarr">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">13.794196399999999</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Salif Sané" target="Youssouf Sabaly">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">19.416489</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Salif Sané" target="Idrissa Gana Gueye">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">22.532713</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Salif Sané" target="Khadim N'Diaye">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">25.501673999999998</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Salif Sané" target="M'Baye Babacar Niang">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">30.9629115</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Salif Sané" target="Alfred John Momar N'Diaye">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">27.329206499999998</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Salif Sané" target="Moussa Wagué">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">29.979668</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Salif Sané" target="Kalidou Koulibaly">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">33.1373776</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Alfred John Momar N'Diaye" target="Ismaïla Sarr">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">34.828148</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Alfred John Momar N'Diaye" target="Youssouf Sabaly">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">21.095022</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Alfred John Momar N'Diaye" target="Idrissa Gana Gueye">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">13.13288885</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Alfred John Momar N'Diaye" target="Mame Biram Diouf">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">23.155348</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Alfred John Momar N'Diaye" target="Sadio Mané">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">20.0</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Alfred John Momar N'Diaye" target="M'Baye Babacar Niang">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">14.111401999999998</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Alfred John Momar N'Diaye" target="Salif Sané">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">28.651364666666666</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Alfred John Momar N'Diaye" target="Moussa Wagué">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">39.051247</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Alfred John Momar N'Diaye" target="Kalidou Koulibaly">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">16.27882</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Moussa Wagué" target="Ismaïla Sarr">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">10.44041325</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Moussa Wagué" target="Idrissa Gana Gueye">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">9.812545199999999</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Moussa Wagué" target="Sadio Mané">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">9.621299</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Moussa Wagué" target="Salif Sané">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">21.603635750000002</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kalidou Koulibaly" target="Youssouf Sabaly">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">26.1715005</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Kalidou Koulibaly" target="Idrissa Gana Gueye">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">18.4407775</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kalidou Koulibaly" target="Sadio Mané">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">16.998825566666667</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Kalidou Koulibaly" target="M'Baye Babacar Niang">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">27.856777</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Kalidou Koulibaly" target="Salif Sané">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">30.713297999999998</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kalidou Koulibaly" target="Alfred John Momar N'Diaye">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">19.1551456</data>
+  <data key="d11">2</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,614 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="progressive_passes" attr.type="long"/>
+<key id="d10" for="edge" attr.name="avg_distance" attr.type="double"/>
+<key id="d9" for="edge" attr.name="distance" attr.type="double"/>
+<key id="d8" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d7" for="node" attr.name="passes_received" attr.type="long"/>
+<key id="d6" for="node" attr.name="passes_made" attr.type="long"/>
+<key id="d5" for="node" attr.name="avg_y" attr.type="double"/>
+<key id="d4" for="node" attr.name="avg_x" attr.type="double"/>
+<key id="d3" for="node" attr.name="team" attr.type="string"/>
+<key id="d2" for="node" attr.name="player_id" attr.type="long"/>
+<key id="d1" for="graph" attr.name="team_name" attr.type="string"/>
+<key id="d0" for="graph" attr.name="match_id" attr.type="long"/>
+<graph edgedefault="directed"><data key="d0">7584</data>
+<data key="d1">Japan</data>
+<node id="Eiji Kawashima">
+  <data key="d2">3175</data>
+  <data key="d3">Japan</data>
+  <data key="d4">11.846153846153847</data>
+  <data key="d5">41.46153846153846</data>
+  <data key="d6">13</data>
+  <data key="d7">11</data>
+</node>
+<node id="Maya Yoshida">
+  <data key="d2">3300</data>
+  <data key="d3">Japan</data>
+  <data key="d4">43.0</data>
+  <data key="d5">53.02777777777778</data>
+  <data key="d6">36</data>
+  <data key="d7">26</data>
+</node>
+<node id="Hiroki Sakai">
+  <data key="d2">3530</data>
+  <data key="d3">Japan</data>
+  <data key="d4">61.629629629629626</data>
+  <data key="d5">74.5925925925926</data>
+  <data key="d6">27</data>
+  <data key="d7">31</data>
+</node>
+<node id="Yūya Ōsako">
+  <data key="d2">5679</data>
+  <data key="d3">Japan</data>
+  <data key="d4">66.92857142857143</data>
+  <data key="d5">36.5</data>
+  <data key="d6">14</data>
+  <data key="d7">19</data>
+</node>
+<node id="Makoto Hasebe">
+  <data key="d2">5681</data>
+  <data key="d3">Japan</data>
+  <data key="d4">51.61538461538461</data>
+  <data key="d5">31.82051282051282</data>
+  <data key="d6">39</data>
+  <data key="d7">36</data>
+</node>
+<node id="Gen Shōji">
+  <data key="d2">5682</data>
+  <data key="d3">Japan</data>
+  <data key="d4">46.107142857142854</data>
+  <data key="d5">23.5</data>
+  <data key="d6">28</data>
+  <data key="d7">29</data>
+</node>
+<node id="Shinji Kagawa">
+  <data key="d2">5684</data>
+  <data key="d3">Japan</data>
+  <data key="d4">75.27777777777777</data>
+  <data key="d5">35.916666666666664</data>
+  <data key="d6">36</data>
+  <data key="d7">31</data>
+</node>
+<node id="Takashi Inui">
+  <data key="d2">5687</data>
+  <data key="d3">Japan</data>
+  <data key="d4">67.875</data>
+  <data key="d5">15.041666666666666</data>
+  <data key="d6">24</data>
+  <data key="d7">38</data>
+</node>
+<node id="Yuto Nagatomo">
+  <data key="d2">5690</data>
+  <data key="d3">Japan</data>
+  <data key="d4">58.73529411764706</data>
+  <data key="d5">6.294117647058823</data>
+  <data key="d6">34</data>
+  <data key="d7">33</data>
+</node>
+<node id="Gaku Shibasaki">
+  <data key="d2">5693</data>
+  <data key="d3">Japan</data>
+  <data key="d4">59.829268292682926</data>
+  <data key="d5">38.68292682926829</data>
+  <data key="d6">41</data>
+  <data key="d7">40</data>
+</node>
+<node id="Genki Haraguchi">
+  <data key="d2">5697</data>
+  <data key="d3">Japan</data>
+  <data key="d4">66.95238095238095</data>
+  <data key="d5">66.47619047619048</data>
+  <data key="d6">21</data>
+  <data key="d7">19</data>
+</node>
+<edge source="Eiji Kawashima" target="Maya Yoshida">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">21.661909</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Eiji Kawashima" target="Hiroki Sakai">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">65.25038166666667</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Eiji Kawashima" target="Yūya Ōsako">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">75.48952333333334</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Eiji Kawashima" target="Makoto Hasebe">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">12.0415945</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Eiji Kawashima" target="Gen Shōji">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">14.923682333333332</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Eiji Kawashima" target="Yuto Nagatomo">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">26.476404</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Maya Yoshida" target="Eiji Kawashima">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">28.896992333333333</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Maya Yoshida" target="Hiroki Sakai">
+  <data key="d8">8</data>
+  <data key="d9">0.125</data>
+  <data key="d10">25.824227125</data>
+  <data key="d11">6</data>
+</edge>
+<edge source="Maya Yoshida" target="Yūya Ōsako">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">24.663811000000003</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Maya Yoshida" target="Makoto Hasebe">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">14.213404124999999</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Maya Yoshida" target="Gen Shōji">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">20.646024</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Maya Yoshida" target="Shinji Kagawa">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">34.406943</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Maya Yoshida" target="Takashi Inui">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">53.42529</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Maya Yoshida" target="Yuto Nagatomo">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">44.275364333333336</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Maya Yoshida" target="Gaku Shibasaki">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">8.104842433333333</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Hiroki Sakai" target="Eiji Kawashima">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">25.806976</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Hiroki Sakai" target="Maya Yoshida">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">17.685628457142858</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Hiroki Sakai" target="Yūya Ōsako">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">26.249544</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Hiroki Sakai" target="Makoto Hasebe">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">16.504896666666667</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Hiroki Sakai" target="Gen Shōji">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">56.920998</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Hiroki Sakai" target="Shinji Kagawa">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">22.880566</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Hiroki Sakai" target="Gaku Shibasaki">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">12.656539666666667</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Hiroki Sakai" target="Genki Haraguchi">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">10.5071955</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Yūya Ōsako" target="Hiroki Sakai">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">10.0</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Yūya Ōsako" target="Makoto Hasebe">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">15.5278964</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Yūya Ōsako" target="Shinji Kagawa">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">9.97303</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Yūya Ōsako" target="Takashi Inui">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">11.0</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Yūya Ōsako" target="Gaku Shibasaki">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">15.264338</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Yūya Ōsako" target="Genki Haraguchi">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">18.04971285</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Makoto Hasebe" target="Eiji Kawashima">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">26.384928333333335</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Makoto Hasebe" target="Maya Yoshida">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">11.6404582</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Makoto Hasebe" target="Hiroki Sakai">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">34.281361</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Makoto Hasebe" target="Yūya Ōsako">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">32.814035000000004</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Makoto Hasebe" target="Gen Shōji">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">15.538040125</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Makoto Hasebe" target="Shinji Kagawa">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">16.1743945</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Makoto Hasebe" target="Takashi Inui">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">15.804292333333331</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Makoto Hasebe" target="Yuto Nagatomo">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">21.834298285714286</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Makoto Hasebe" target="Gaku Shibasaki">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">13.8754335</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Makoto Hasebe" target="Genki Haraguchi">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">10.770329</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gen Shōji" target="Eiji Kawashima">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">33.83785</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gen Shōji" target="Maya Yoshida">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">27.612008</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gen Shōji" target="Hiroki Sakai">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">59.03389</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Gen Shōji" target="Makoto Hasebe">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">11.178252166666667</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gen Shōji" target="Shinji Kagawa">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">8.459709833333333</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Gen Shōji" target="Takashi Inui">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">20.3512275</data>
+  <data key="d11">4</data>
+</edge>
+<edge source="Gen Shōji" target="Yuto Nagatomo">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">24.04976725</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Gen Shōji" target="Gaku Shibasaki">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">16.6635096</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Shinji Kagawa" target="Hiroki Sakai">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">20.22375</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Shinji Kagawa" target="Yūya Ōsako">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">17.459686566666665</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Shinji Kagawa" target="Makoto Hasebe">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">10.70351225</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Shinji Kagawa" target="Gen Shōji">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">8.246211</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Shinji Kagawa" target="Takashi Inui">
+  <data key="d8">12</data>
+  <data key="d9">0.08333333333333333</data>
+  <data key="d10">10.908831333333334</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Shinji Kagawa" target="Yuto Nagatomo">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">20.3825965</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Shinji Kagawa" target="Gaku Shibasaki">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">13.248398357142857</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Shinji Kagawa" target="Genki Haraguchi">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">15.770769</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Takashi Inui" target="Maya Yoshida">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">26.537729999999996</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Takashi Inui" target="Hiroki Sakai">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">54.91812</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Takashi Inui" target="Yūya Ōsako">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">15.811388</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Takashi Inui" target="Makoto Hasebe">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">16.0887</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Takashi Inui" target="Gen Shōji">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">17.376681666666666</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Takashi Inui" target="Shinji Kagawa">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">10.81733515</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Takashi Inui" target="Yuto Nagatomo">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">21.4649955</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Takashi Inui" target="Gaku Shibasaki">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">15.4519206</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Yuto Nagatomo" target="Yūya Ōsako">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">16.115773</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Yuto Nagatomo" target="Makoto Hasebe">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">18.1620132</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Yuto Nagatomo" target="Gen Shōji">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">13.687154000000001</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Yuto Nagatomo" target="Shinji Kagawa">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">10.6387686</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Yuto Nagatomo" target="Takashi Inui">
+  <data key="d8">10</data>
+  <data key="d9">0.1</data>
+  <data key="d10">10.86344834</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Yuto Nagatomo" target="Gaku Shibasaki">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">10.27556894</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gaku Shibasaki" target="Maya Yoshida">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">24.195023674999998</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gaku Shibasaki" target="Hiroki Sakai">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">25.1007884</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gaku Shibasaki" target="Yūya Ōsako">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">13.485957666666666</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Gaku Shibasaki" target="Makoto Hasebe">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">17.738718333333335</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gaku Shibasaki" target="Gen Shōji">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">25.254171</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Gaku Shibasaki" target="Shinji Kagawa">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">10.037897083333334</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Gaku Shibasaki" target="Takashi Inui">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">30.3819734</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Gaku Shibasaki" target="Yuto Nagatomo">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">24.589507666666666</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Gaku Shibasaki" target="Genki Haraguchi">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">17.970924985714284</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Genki Haraguchi" target="Maya Yoshida">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">23.089372</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Genki Haraguchi" target="Hiroki Sakai">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">12.147646499999999</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Genki Haraguchi" target="Yūya Ōsako">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">13.038404</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Genki Haraguchi" target="Makoto Hasebe">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">9.486833</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Genki Haraguchi" target="Shinji Kagawa">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">15.8922601</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Genki Haraguchi" target="Yuto Nagatomo">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">32.24903</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Genki Haraguchi" target="Gaku Shibasaki">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">10.4636035</data>
+  <data key="d11">0</data>
+</edge>
+</graph></graphml>

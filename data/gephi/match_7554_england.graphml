@@ -1,0 +1,608 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="progressive_passes" attr.type="long"/>
+<key id="d10" for="edge" attr.name="avg_distance" attr.type="double"/>
+<key id="d9" for="edge" attr.name="distance" attr.type="double"/>
+<key id="d8" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d7" for="node" attr.name="passes_received" attr.type="long"/>
+<key id="d6" for="node" attr.name="passes_made" attr.type="long"/>
+<key id="d5" for="node" attr.name="avg_y" attr.type="double"/>
+<key id="d4" for="node" attr.name="avg_x" attr.type="double"/>
+<key id="d3" for="node" attr.name="team" attr.type="string"/>
+<key id="d2" for="node" attr.name="player_id" attr.type="long"/>
+<key id="d1" for="graph" attr.name="team_name" attr.type="string"/>
+<key id="d0" for="graph" attr.name="match_id" attr.type="long"/>
+<graph edgedefault="directed"><data key="d0">7554</data>
+<data key="d1">England</data>
+<node id="Kyle Walker">
+  <data key="d2">3205</data>
+  <data key="d3">England</data>
+  <data key="d4">54.871428571428574</data>
+  <data key="d5">59.08571428571429</data>
+  <data key="d6">70</data>
+  <data key="d7">64</data>
+</node>
+<node id="Raheem Sterling">
+  <data key="d2">3233</data>
+  <data key="d3">England</data>
+  <data key="d4">70.51851851851852</data>
+  <data key="d5">41.03703703703704</data>
+  <data key="d6">27</data>
+  <data key="d7">32</data>
+</node>
+<node id="John Stones">
+  <data key="d2">3244</data>
+  <data key="d3">England</data>
+  <data key="d4">54.0</data>
+  <data key="d5">39.435483870967744</data>
+  <data key="d6">62</data>
+  <data key="d7">61</data>
+</node>
+<node id="Jesse Lingard">
+  <data key="d2">3293</data>
+  <data key="d3">England</data>
+  <data key="d4">69.73333333333333</data>
+  <data key="d5">34.833333333333336</data>
+  <data key="d6">30</data>
+  <data key="d7">38</data>
+</node>
+<node id="Kieran Trippier">
+  <data key="d2">3308</data>
+  <data key="d3">England</data>
+  <data key="d4">71.375</data>
+  <data key="d5">74.20833333333333</data>
+  <data key="d6">24</data>
+  <data key="d7">19</data>
+</node>
+<node id="Harry Maguire">
+  <data key="d2">3336</data>
+  <data key="d3">England</data>
+  <data key="d4">56.93333333333333</data>
+  <data key="d5">16.266666666666666</data>
+  <data key="d6">45</data>
+  <data key="d7">46</data>
+</node>
+<node id="Jordan Pickford">
+  <data key="d2">3468</data>
+  <data key="d3">England</data>
+  <data key="d4">13.133333333333333</data>
+  <data key="d5">40.46666666666667</data>
+  <data key="d6">15</data>
+  <data key="d7">10</data>
+</node>
+<node id="Ruben Loftus-Cheek">
+  <data key="d2">3504</data>
+  <data key="d3">England</data>
+  <data key="d4">78.5</data>
+  <data key="d5">66.2</data>
+  <data key="d6">20</data>
+  <data key="d7">22</data>
+</node>
+<node id="Jordan Brian Henderson">
+  <data key="d2">3532</data>
+  <data key="d3">England</data>
+  <data key="d4">59.56410256410256</data>
+  <data key="d5">45.61538461538461</data>
+  <data key="d6">39</data>
+  <data key="d7">42</data>
+</node>
+<node id="Ashley Young">
+  <data key="d2">3612</data>
+  <data key="d3">England</data>
+  <data key="d4">51.34782608695652</data>
+  <data key="d5">11.391304347826088</data>
+  <data key="d6">23</data>
+  <data key="d7">18</data>
+</node>
+<node id="Harry Kane">
+  <data key="d2">10955</data>
+  <data key="d3">England</data>
+  <data key="d4">81.33333333333333</data>
+  <data key="d5">41.111111111111114</data>
+  <data key="d6">9</data>
+  <data key="d7">12</data>
+</node>
+<edge source="Kyle Walker" target="Raheem Sterling">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">15.064943971428573</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Kyle Walker" target="John Stones">
+  <data key="d8">21</data>
+  <data key="d9">0.047619047619047616</data>
+  <data key="d10">15.73827150952381</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Kyle Walker" target="Jesse Lingard">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">27.489113099999997</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Kyle Walker" target="Kieran Trippier">
+  <data key="d8">8</data>
+  <data key="d9">0.125</data>
+  <data key="d10">21.3285935625</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Kyle Walker" target="Harry Maguire">
+  <data key="d8">9</data>
+  <data key="d9">0.1111111111111111</data>
+  <data key="d10">40.736142666666666</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Kyle Walker" target="Jordan Pickford">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">40.512062</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kyle Walker" target="Ruben Loftus-Cheek">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">21.695755</data>
+  <data key="d11">5</data>
+</edge>
+<edge source="Kyle Walker" target="Jordan Brian Henderson">
+  <data key="d8">9</data>
+  <data key="d9">0.1111111111111111</data>
+  <data key="d10">16.344290333333333</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Kyle Walker" target="Ashley Young">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">16.03122</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kyle Walker" target="Harry Kane">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">14.528250833333333</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Raheem Sterling" target="Kyle Walker">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">12.587613583333335</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Raheem Sterling" target="John Stones">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">12.544231300000002</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Raheem Sterling" target="Jesse Lingard">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">8.37915922</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Raheem Sterling" target="Kieran Trippier">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">15.0</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Raheem Sterling" target="Harry Maguire">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">13.753540300000001</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Raheem Sterling" target="Ruben Loftus-Cheek">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">17.222803</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Raheem Sterling" target="Jordan Brian Henderson">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">11.7612505</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Raheem Sterling" target="Harry Kane">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">12.0</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="John Stones" target="Kyle Walker">
+  <data key="d8">21</data>
+  <data key="d9">0.047619047619047616</data>
+  <data key="d10">19.577229</data>
+  <data key="d11">4</data>
+</edge>
+<edge source="John Stones" target="Raheem Sterling">
+  <data key="d8">8</data>
+  <data key="d9">0.125</data>
+  <data key="d10">10.509104775</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="John Stones" target="Jesse Lingard">
+  <data key="d8">8</data>
+  <data key="d9">0.125</data>
+  <data key="d10">16.8565117875</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="John Stones" target="Kieran Trippier">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">9.219544</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="John Stones" target="Harry Maguire">
+  <data key="d8">8</data>
+  <data key="d9">0.125</data>
+  <data key="d10">23.065325</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="John Stones" target="Jordan Pickford">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">24.083189</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="John Stones" target="Ruben Loftus-Cheek">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">27.084391</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="John Stones" target="Jordan Brian Henderson">
+  <data key="d8">11</data>
+  <data key="d9">0.09090909090909091</data>
+  <data key="d10">12.371875545454545</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jesse Lingard" target="Kyle Walker">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">23.718687</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Jesse Lingard" target="Raheem Sterling">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">7.919098099999999</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Jesse Lingard" target="John Stones">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">12.760916125</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Jesse Lingard" target="Kieran Trippier">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">14.0</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Jesse Lingard" target="Harry Maguire">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">14.256557666666666</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Jesse Lingard" target="Ruben Loftus-Cheek">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">12.792248666666666</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jesse Lingard" target="Jordan Brian Henderson">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">8.736710200000001</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Jesse Lingard" target="Ashley Young">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">16.320825666666668</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kieran Trippier" target="Kyle Walker">
+  <data key="d8">10</data>
+  <data key="d9">0.1</data>
+  <data key="d10">15.8072663</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kieran Trippier" target="Raheem Sterling">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">26.1382085</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Kieran Trippier" target="John Stones">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">23.793898</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kieran Trippier" target="Jesse Lingard">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">18.9350115</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Kieran Trippier" target="Harry Maguire">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">47.801674</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Kieran Trippier" target="Jordan Pickford">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">39.812057</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kieran Trippier" target="Ruben Loftus-Cheek">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">27.0</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Kieran Trippier" target="Jordan Brian Henderson">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">11.67765125</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Harry Maguire" target="Kyle Walker">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">26.342600333333337</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Harry Maguire" target="Raheem Sterling">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">13.623079200000001</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Harry Maguire" target="John Stones">
+  <data key="d8">14</data>
+  <data key="d9">0.07142857142857142</data>
+  <data key="d10">17.18221685714286</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Harry Maguire" target="Jesse Lingard">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">9.486755583333334</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Harry Maguire" target="Jordan Pickford">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">34.115502666666664</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Harry Maguire" target="Jordan Brian Henderson">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">15.460890000000001</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Harry Maguire" target="Ashley Young">
+  <data key="d8">10</data>
+  <data key="d9">0.1</data>
+  <data key="d10">15.586531350000001</data>
+  <data key="d11">5</data>
+</edge>
+<edge source="Harry Maguire" target="Harry Kane">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">37.054016</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jordan Pickford" target="Kyle Walker">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">26.230497285714282</data>
+  <data key="d11">4</data>
+</edge>
+<edge source="Jordan Pickford" target="Raheem Sterling">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">74.96666</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jordan Pickford" target="John Stones">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">17.94765825</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Jordan Pickford" target="Kieran Trippier">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">40.22437</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jordan Pickford" target="Harry Maguire">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">28.392439</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jordan Pickford" target="Ruben Loftus-Cheek">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">24.839485</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jordan Pickford" target="Ashley Young">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">13.038404</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Ruben Loftus-Cheek" target="Kyle Walker">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">11.842080916666667</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ruben Loftus-Cheek" target="Raheem Sterling">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">10.55177325</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ruben Loftus-Cheek" target="John Stones">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">26.0</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ruben Loftus-Cheek" target="Jesse Lingard">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">18.35756</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ruben Loftus-Cheek" target="Kieran Trippier">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">13.189097499999999</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ruben Loftus-Cheek" target="Jordan Brian Henderson">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">11.840073949999999</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ruben Loftus-Cheek" target="Harry Kane">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">18.625778</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jordan Brian Henderson" target="Kyle Walker">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">15.31576142857143</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Jordan Brian Henderson" target="John Stones">
+  <data key="d8">8</data>
+  <data key="d9">0.125</data>
+  <data key="d10">17.32697</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Jordan Brian Henderson" target="Jesse Lingard">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">12.990864</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jordan Brian Henderson" target="Kieran Trippier">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">18.717375750000002</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jordan Brian Henderson" target="Harry Maguire">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">23.2085886</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Jordan Brian Henderson" target="Ruben Loftus-Cheek">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">26.6821364</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Jordan Brian Henderson" target="Ashley Young">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">33.422824</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jordan Brian Henderson" target="Harry Kane">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">17.86654975</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Ashley Young" target="Kyle Walker">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">39.319206</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ashley Young" target="John Stones">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">24.68432633333333</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ashley Young" target="Jesse Lingard">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">15.422768166666666</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Ashley Young" target="Harry Maguire">
+  <data key="d8">10</data>
+  <data key="d9">0.1</data>
+  <data key="d10">14.784754549999999</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ashley Young" target="Jordan Pickford">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">18.094549333333333</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Ashley Young" target="Jordan Brian Henderson">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">17.6776695</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Ashley Young" target="Harry Kane">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">15.0</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Harry Kane" target="Kyle Walker">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">15.652476</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Harry Kane" target="Raheem Sterling">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">15.170459000000001</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Harry Kane" target="Jesse Lingard">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">9.49476</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Harry Kane" target="Jordan Brian Henderson">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">9.419816749999999</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Harry Kane" target="Ashley Young">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">28.442924</data>
+  <data key="d11">0</data>
+</edge>
+</graph></graphml>

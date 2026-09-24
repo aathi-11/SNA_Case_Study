@@ -1,0 +1,86 @@
+Source,Target,Type,Weight,Distance,Avg_Pass_Distance,Progressive_Passes
+Jan Vertonghen,Kevin De Bruyne,Directed,3,0.3333333333333333,30.62144033333333,3
+Jan Vertonghen,Vincent Kompany,Directed,15,0.06666666666666667,23.9446735,0
+Jan Vertonghen,Marouane Fellaini-Bakkioui,Directed,2,0.5,19.255851,1
+Jan Vertonghen,Thibaut Courtois,Directed,4,0.25,32.7597475,0
+Jan Vertonghen,Eden Hazard,Directed,4,0.25,26.290854500000002,3
+Jan Vertonghen,Nacer Chadli,Directed,3,0.3333333333333333,24.90583033333333,3
+Jan Vertonghen,Axel Witsel,Directed,4,0.25,12.400453625,0
+Jan Vertonghen,Toby Alderweireld,Directed,2,0.5,32.3831115,0
+Kevin De Bruyne,Jan Vertonghen,Directed,3,0.3333333333333333,39.33901,0
+Kevin De Bruyne,Thomas Meunier,Directed,1,1.0,10.770329,0
+Kevin De Bruyne,Romelu Lukaku Menama,Directed,6,0.16666666666666666,27.275530000000003,5
+Kevin De Bruyne,Marouane Fellaini-Bakkioui,Directed,3,0.3333333333333333,19.224768666666666,1
+Kevin De Bruyne,Thibaut Courtois,Directed,1,1.0,18.439089,0
+Kevin De Bruyne,Eden Hazard,Directed,8,0.125,17.3362943625,4
+Kevin De Bruyne,Nacer Chadli,Directed,3,0.3333333333333333,19.687216466666666,1
+Kevin De Bruyne,Axel Witsel,Directed,5,0.2,19.73637108,0
+Vincent Kompany,Jan Vertonghen,Directed,6,0.16666666666666666,20.64188808333333,0
+Vincent Kompany,Kevin De Bruyne,Directed,1,1.0,31.890438,1
+Vincent Kompany,Thomas Meunier,Directed,2,0.5,41.64732,2
+Vincent Kompany,Romelu Lukaku Menama,Directed,1,1.0,90.33826,1
+Vincent Kompany,Marouane Fellaini-Bakkioui,Directed,1,1.0,34.43835,1
+Vincent Kompany,Thibaut Courtois,Directed,3,0.3333333333333333,26.960684333333333,0
+Vincent Kompany,Eden Hazard,Directed,4,0.25,33.83669475,4
+Vincent Kompany,Axel Witsel,Directed,5,0.2,12.4418492,2
+Vincent Kompany,Toby Alderweireld,Directed,12,0.08333333333333333,23.8475035,0
+Thomas Meunier,Kevin De Bruyne,Directed,1,1.0,15.811388,1
+Thomas Meunier,Romelu Lukaku Menama,Directed,3,0.3333333333333333,33.25880133333333,3
+Thomas Meunier,Marouane Fellaini-Bakkioui,Directed,10,0.1,17.66788675,3
+Thomas Meunier,Eden Hazard,Directed,1,1.0,47.201694,1
+Thomas Meunier,Axel Witsel,Directed,1,1.0,12.0415945,0
+Thomas Meunier,Toby Alderweireld,Directed,3,0.3333333333333333,19.096898,0
+Romelu Lukaku Menama,Jan Vertonghen,Directed,1,1.0,52.34501,0
+Romelu Lukaku Menama,Kevin De Bruyne,Directed,4,0.25,16.18817275,1
+Romelu Lukaku Menama,Thomas Meunier,Directed,2,0.5,18.433145,0
+Romelu Lukaku Menama,Nacer Chadli,Directed,1,1.0,53.0,1
+Romelu Lukaku Menama,Axel Witsel,Directed,1,1.0,7.28011,0
+Marouane Fellaini-Bakkioui,Jan Vertonghen,Directed,2,0.5,22.9065865,0
+Marouane Fellaini-Bakkioui,Kevin De Bruyne,Directed,2,0.5,18.31777865,1
+Marouane Fellaini-Bakkioui,Vincent Kompany,Directed,3,0.3333333333333333,19.059422333333334,0
+Marouane Fellaini-Bakkioui,Thomas Meunier,Directed,4,0.25,15.09234185,1
+Marouane Fellaini-Bakkioui,Romelu Lukaku Menama,Directed,3,0.3333333333333333,28.500035,3
+Marouane Fellaini-Bakkioui,Eden Hazard,Directed,3,0.3333333333333333,17.093619166666667,1
+Marouane Fellaini-Bakkioui,Nacer Chadli,Directed,1,1.0,19.416489,1
+Marouane Fellaini-Bakkioui,Axel Witsel,Directed,6,0.16666666666666666,15.430908333333335,0
+Marouane Fellaini-Bakkioui,Toby Alderweireld,Directed,2,0.5,18.5286985,0
+Thibaut Courtois,Jan Vertonghen,Directed,3,0.3333333333333333,24.062391333333334,0
+Thibaut Courtois,Kevin De Bruyne,Directed,1,1.0,68.0147,1
+Thibaut Courtois,Vincent Kompany,Directed,1,1.0,8.944272,0
+Thibaut Courtois,Thomas Meunier,Directed,1,1.0,40.804413,1
+Thibaut Courtois,Romelu Lukaku Menama,Directed,1,1.0,68.96376,1
+Thibaut Courtois,Marouane Fellaini-Bakkioui,Directed,1,1.0,67.08204,1
+Thibaut Courtois,Eden Hazard,Directed,2,0.5,57.96770600000001,2
+Thibaut Courtois,Nacer Chadli,Directed,2,0.5,43.986447999999996,2
+Thibaut Courtois,Toby Alderweireld,Directed,2,0.5,9.0621786,1
+Eden Hazard,Jan Vertonghen,Directed,2,0.5,12.815856,0
+Eden Hazard,Kevin De Bruyne,Directed,4,0.25,15.854064375,2
+Eden Hazard,Vincent Kompany,Directed,1,1.0,17.0,0
+Eden Hazard,Thomas Meunier,Directed,2,0.5,23.34520475,1
+Eden Hazard,Romelu Lukaku Menama,Directed,1,1.0,28.600698,1
+Eden Hazard,Marouane Fellaini-Bakkioui,Directed,1,1.0,22.135944,1
+Eden Hazard,Nacer Chadli,Directed,12,0.08333333333333333,12.658314916666667,2
+Eden Hazard,Axel Witsel,Directed,5,0.2,13.765720300000002,0
+Nacer Chadli,Jan Vertonghen,Directed,10,0.1,16.485453200000002,0
+Nacer Chadli,Kevin De Bruyne,Directed,4,0.25,18.137639625,1
+Nacer Chadli,Vincent Kompany,Directed,1,1.0,30.265491,0
+Nacer Chadli,Romelu Lukaku Menama,Directed,1,1.0,21.189621,0
+Nacer Chadli,Thibaut Courtois,Directed,1,1.0,32.202484,0
+Nacer Chadli,Eden Hazard,Directed,9,0.1111111111111111,12.082983599999999,4
+Nacer Chadli,Axel Witsel,Directed,1,1.0,14.56022,0
+Axel Witsel,Jan Vertonghen,Directed,4,0.25,21.28005825,0
+Axel Witsel,Kevin De Bruyne,Directed,4,0.25,11.666326999999999,0
+Axel Witsel,Vincent Kompany,Directed,7,0.14285714285714285,13.384298642857143,0
+Axel Witsel,Thomas Meunier,Directed,1,1.0,10.198039,0
+Axel Witsel,Marouane Fellaini-Bakkioui,Directed,3,0.3333333333333333,11.698039,0
+Axel Witsel,Eden Hazard,Directed,8,0.125,12.8802366875,2
+Axel Witsel,Nacer Chadli,Directed,2,0.5,20.224014500000003,0
+Axel Witsel,Toby Alderweireld,Directed,1,1.0,10.630146,0
+Toby Alderweireld,Jan Vertonghen,Directed,2,0.5,32.478536500000004,0
+Toby Alderweireld,Kevin De Bruyne,Directed,2,0.5,17.4093575,1
+Toby Alderweireld,Vincent Kompany,Directed,6,0.16666666666666666,22.556052833333336,0
+Toby Alderweireld,Thomas Meunier,Directed,3,0.3333333333333333,27.707774999999998,3
+Toby Alderweireld,Romelu Lukaku Menama,Directed,3,0.3333333333333333,43.665516,3
+Toby Alderweireld,Marouane Fellaini-Bakkioui,Directed,3,0.3333333333333333,15.552268,2
+Toby Alderweireld,Thibaut Courtois,Directed,4,0.25,21.594808,0
+Toby Alderweireld,Axel Witsel,Directed,1,1.0,10.049875,0

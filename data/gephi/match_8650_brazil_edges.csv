@@ -1,0 +1,65 @@
+Source,Target,Type,Weight,Distance,Avg_Pass_Distance,Progressive_Passes
+Fernando Luiz Roza,Thiago Emiliano da Silva,Directed,2,0.5,12.32258,0
+Fernando Luiz Roza,Willian Borges da Silva,Directed,5,0.2,25.0133334,2
+Fernando Luiz Roza,Philippe Coutinho Correia,Directed,6,0.16666666666666666,15.310130666666666,1
+Fernando Luiz Roza,Neymar da Silva Santos Junior,Directed,1,1.0,29.068884,0
+Fernando Luiz Roza,José Paulo Bezzera Maciel Júnior,Directed,6,0.16666666666666666,12.506152083333333,1
+Fernando Luiz Roza,João Miranda de Souza Filho,Directed,2,0.5,5.61226785,0
+Fernando Luiz Roza,Marcelo Vieira da Silva Júnior,Directed,2,0.5,19.5256415,0
+Fernando Luiz Roza,Fágner Conserva Lemos,Directed,2,0.5,16.569077,0
+Gabriel Fernando de Jesus,Philippe Coutinho Correia,Directed,1,1.0,10.630146,0
+Gabriel Fernando de Jesus,Neymar da Silva Santos Junior,Directed,1,1.0,11.661903,0
+Gabriel Fernando de Jesus,José Paulo Bezzera Maciel Júnior,Directed,1,1.0,5.0,0
+Thiago Emiliano da Silva,Fernando Luiz Roza,Directed,2,0.5,16.3459035,1
+Thiago Emiliano da Silva,Gabriel Fernando de Jesus,Directed,1,1.0,12.206555,0
+Thiago Emiliano da Silva,Willian Borges da Silva,Directed,1,1.0,36.05551,1
+Thiago Emiliano da Silva,Philippe Coutinho Correia,Directed,3,0.3333333333333333,26.242958666666667,1
+Thiago Emiliano da Silva,Neymar da Silva Santos Junior,Directed,1,1.0,55.03635,1
+Thiago Emiliano da Silva,José Paulo Bezzera Maciel Júnior,Directed,1,1.0,14.21267,0
+Thiago Emiliano da Silva,João Miranda de Souza Filho,Directed,8,0.125,20.999306875,0
+Thiago Emiliano da Silva,Marcelo Vieira da Silva Júnior,Directed,4,0.25,36.1488195,3
+Thiago Emiliano da Silva,Fágner Conserva Lemos,Directed,6,0.16666666666666666,25.35380166666667,2
+Willian Borges da Silva,Fernando Luiz Roza,Directed,3,0.3333333333333333,11.8438649,1
+Willian Borges da Silva,Thiago Emiliano da Silva,Directed,2,0.5,28.9364365,0
+Willian Borges da Silva,Philippe Coutinho Correia,Directed,1,1.0,39.012817,0
+Willian Borges da Silva,Neymar da Silva Santos Junior,Directed,1,1.0,16.552946,0
+Willian Borges da Silva,José Paulo Bezzera Maciel Júnior,Directed,6,0.16666666666666666,18.429494666666667,1
+Willian Borges da Silva,João Miranda de Souza Filho,Directed,1,1.0,33.30165,0
+Willian Borges da Silva,Marcelo Vieira da Silva Júnior,Directed,1,1.0,36.124783,0
+Philippe Coutinho Correia,Fernando Luiz Roza,Directed,9,0.1111111111111111,11.803186577777778,0
+Philippe Coutinho Correia,Thiago Emiliano da Silva,Directed,1,1.0,16.492422,0
+Philippe Coutinho Correia,Willian Borges da Silva,Directed,1,1.0,51.351727,0
+Philippe Coutinho Correia,Neymar da Silva Santos Junior,Directed,10,0.1,12.571235900000001,5
+Philippe Coutinho Correia,José Paulo Bezzera Maciel Júnior,Directed,4,0.25,13.75361775,0
+Philippe Coutinho Correia,Marcelo Vieira da Silva Júnior,Directed,9,0.1111111111111111,17.900693833333335,4
+Neymar da Silva Santos Junior,Fernando Luiz Roza,Directed,3,0.3333333333333333,18.738026333333334,0
+Neymar da Silva Santos Junior,Gabriel Fernando de Jesus,Directed,2,0.5,16.662277,0
+Neymar da Silva Santos Junior,Thiago Emiliano da Silva,Directed,1,1.0,37.12142,0
+Neymar da Silva Santos Junior,Willian Borges da Silva,Directed,1,1.0,25.079872,0
+Neymar da Silva Santos Junior,Philippe Coutinho Correia,Directed,7,0.14285714285714285,10.0137845,0
+Neymar da Silva Santos Junior,João Miranda de Souza Filho,Directed,1,1.0,14.0,0
+Neymar da Silva Santos Junior,Marcelo Vieira da Silva Júnior,Directed,10,0.1,12.806154900000001,3
+José Paulo Bezzera Maciel Júnior,Fernando Luiz Roza,Directed,1,1.0,17.20465,0
+José Paulo Bezzera Maciel Júnior,Thiago Emiliano da Silva,Directed,4,0.25,10.325087925,0
+José Paulo Bezzera Maciel Júnior,Willian Borges da Silva,Directed,5,0.2,19.6455792,2
+José Paulo Bezzera Maciel Júnior,Philippe Coutinho Correia,Directed,3,0.3333333333333333,15.873757666666664,0
+José Paulo Bezzera Maciel Júnior,João Miranda de Souza Filho,Directed,3,0.3333333333333333,10.564464000000001,0
+José Paulo Bezzera Maciel Júnior,Fágner Conserva Lemos,Directed,6,0.16666666666666666,16.554349333333334,0
+Alisson Ramsés Becker,Thiago Emiliano da Silva,Directed,2,0.5,20.379718,1
+João Miranda de Souza Filho,Fernando Luiz Roza,Directed,3,0.3333333333333333,14.168228833333332,0
+João Miranda de Souza Filho,Thiago Emiliano da Silva,Directed,6,0.16666666666666666,16.855763,0
+João Miranda de Souza Filho,Philippe Coutinho Correia,Directed,2,0.5,7.651722749999999,0
+João Miranda de Souza Filho,Neymar da Silva Santos Junior,Directed,3,0.3333333333333333,18.459100666666668,2
+João Miranda de Souza Filho,José Paulo Bezzera Maciel Júnior,Directed,2,0.5,11.9087052,0
+João Miranda de Souza Filho,Marcelo Vieira da Silva Júnior,Directed,6,0.16666666666666666,27.120556833333335,2
+Marcelo Vieira da Silva Júnior,Fernando Luiz Roza,Directed,1,1.0,23.021729,0
+Marcelo Vieira da Silva Júnior,Gabriel Fernando de Jesus,Directed,1,1.0,35.128338,0
+Marcelo Vieira da Silva Júnior,Thiago Emiliano da Silva,Directed,1,1.0,18.027756,0
+Marcelo Vieira da Silva Júnior,Philippe Coutinho Correia,Directed,13,0.07692307692307693,12.343656615384615,1
+Marcelo Vieira da Silva Júnior,Neymar da Silva Santos Junior,Directed,12,0.08333333333333333,12.523184333333333,4
+Marcelo Vieira da Silva Júnior,João Miranda de Souza Filho,Directed,4,0.25,18.407753,0
+Fágner Conserva Lemos,Thiago Emiliano da Silva,Directed,7,0.14285714285714285,15.962194642857144,0
+Fágner Conserva Lemos,Willian Borges da Silva,Directed,5,0.2,14.107476600000002,2
+Fágner Conserva Lemos,José Paulo Bezzera Maciel Júnior,Directed,4,0.25,9.24715275,1
+Fágner Conserva Lemos,Alisson Ramsés Becker,Directed,1,1.0,35.468296,0
+Fágner Conserva Lemos,Marcelo Vieira da Silva Júnior,Directed,1,1.0,12.0415945,1

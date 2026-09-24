@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="progressive_passes" attr.type="long"/>
+<key id="d10" for="edge" attr.name="avg_distance" attr.type="double"/>
+<key id="d9" for="edge" attr.name="distance" attr.type="double"/>
+<key id="d8" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d7" for="node" attr.name="passes_received" attr.type="long"/>
+<key id="d6" for="node" attr.name="passes_made" attr.type="long"/>
+<key id="d5" for="node" attr.name="avg_y" attr.type="double"/>
+<key id="d4" for="node" attr.name="avg_x" attr.type="double"/>
+<key id="d3" for="node" attr.name="team" attr.type="string"/>
+<key id="d2" for="node" attr.name="player_id" attr.type="long"/>
+<key id="d1" for="graph" attr.name="team_name" attr.type="string"/>
+<key id="d0" for="graph" attr.name="match_id" attr.type="long"/>
+<graph edgedefault="directed"><data key="d0">7539</data>
+<data key="d1">Poland</data>
+<node id="Grzegorz Krychowiak">
+  <data key="d2">3637</data>
+  <data key="d3">Poland</data>
+  <data key="d4">51.4</data>
+  <data key="d5">41.425</data>
+  <data key="d6">40</data>
+  <data key="d7">33</data>
+</node>
+<node id="Łukasz Piszczek">
+  <data key="d2">5658</data>
+  <data key="d3">Poland</data>
+  <data key="d4">56.25</data>
+  <data key="d5">67.85</data>
+  <data key="d6">20</data>
+  <data key="d7">19</data>
+</node>
+<node id="Piotr Zieliński">
+  <data key="d2">5660</data>
+  <data key="d3">Poland</data>
+  <data key="d4">65.27272727272727</data>
+  <data key="d5">25.96969696969697</data>
+  <data key="d6">33</data>
+  <data key="d7">40</data>
+</node>
+<node id="Thiago Rangel Cionek">
+  <data key="d2">5662</data>
+  <data key="d3">Poland</data>
+  <data key="d4">37.925</data>
+  <data key="d5">52.825</data>
+  <data key="d6">40</data>
+  <data key="d7">34</data>
+</node>
+<node id="Jakub Błaszczykowski">
+  <data key="d2">5663</data>
+  <data key="d3">Poland</data>
+  <data key="d4">57.333333333333336</data>
+  <data key="d5">66.5</data>
+  <data key="d6">6</data>
+  <data key="d7">12</data>
+</node>
+<node id="Arkadiusz Milik">
+  <data key="d2">5665</data>
+  <data key="d3">Poland</data>
+  <data key="d4">69.28571428571429</data>
+  <data key="d5">37.42857142857143</data>
+  <data key="d6">7</data>
+  <data key="d7">10</data>
+</node>
+<node id="Kamil Grosicki">
+  <data key="d2">5667</data>
+  <data key="d3">Poland</data>
+  <data key="d4">77.44444444444444</data>
+  <data key="d5">13.11111111111111</data>
+  <data key="d6">9</data>
+  <data key="d7">11</data>
+</node>
+<node id="Robert Lewandowski">
+  <data key="d2">5668</data>
+  <data key="d3">Poland</data>
+  <data key="d4">72.57142857142857</data>
+  <data key="d5">44.42857142857143</data>
+  <data key="d6">7</data>
+  <data key="d7">8</data>
+</node>
+<node id="Wojciech Szczęsny">
+  <data key="d2">5669</data>
+  <data key="d3">Poland</data>
+  <data key="d4">15.454545454545455</data>
+  <data key="d5">38.81818181818182</data>
+  <data key="d6">11</data>
+  <data key="d7">10</data>
+</node>
+<node id="Michał Pazdan">
+  <data key="d2">5670</data>
+  <data key="d3">Poland</data>
+  <data key="d4">44.17777777777778</data>
+  <data key="d5">16.266666666666666</data>
+  <data key="d6">45</data>
+  <data key="d7">41</data>
+</node>
+<node id="Maciej Rybus">
+  <data key="d2">5672</data>
+  <data key="d3">Poland</data>
+  <data key="d4">64.17647058823529</data>
+  <data key="d5">5.9411764705882355</data>
+  <data key="d6">17</data>
+  <data key="d7">17</data>
+</node>
+<edge source="Grzegorz Krychowiak" target="Łukasz Piszczek">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">41.300313</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Grzegorz Krychowiak" target="Piotr Zieliński">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">12.14259142857143</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Grzegorz Krychowiak" target="Thiago Rangel Cionek">
+  <data key="d8">9</data>
+  <data key="d9">0.1111111111111111</data>
+  <data key="d10">20.962906666666665</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Grzegorz Krychowiak" target="Jakub Błaszczykowski">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">22.1359435</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Grzegorz Krychowiak" target="Kamil Grosicki">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">49.5080215</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Grzegorz Krychowiak" target="Robert Lewandowski">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">13.2121527</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Grzegorz Krychowiak" target="Michał Pazdan">
+  <data key="d8">12</data>
+  <data key="d9">0.08333333333333333</data>
+  <data key="d10">23.056758541666667</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Grzegorz Krychowiak" target="Maciej Rybus">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">20.1559755</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Łukasz Piszczek" target="Grzegorz Krychowiak">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">14.0673439</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Łukasz Piszczek" target="Piotr Zieliński">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">29.366927599999997</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Łukasz Piszczek" target="Thiago Rangel Cionek">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">22.505605600000003</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Łukasz Piszczek" target="Jakub Błaszczykowski">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">9.3469362</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Łukasz Piszczek" target="Robert Lewandowski">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">18.884864</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Piotr Zieliński" target="Grzegorz Krychowiak">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">17.107444833333332</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Piotr Zieliński" target="Łukasz Piszczek">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">33.849702</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Piotr Zieliński" target="Thiago Rangel Cionek">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">35.8479985</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Piotr Zieliński" target="Jakub Błaszczykowski">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">38.822452</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Piotr Zieliński" target="Arkadiusz Milik">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">11.945639250000001</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Piotr Zieliński" target="Kamil Grosicki">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">29.479517680000004</data>
+  <data key="d11">4</data>
+</edge>
+<edge source="Piotr Zieliński" target="Robert Lewandowski">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">22.090721</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Piotr Zieliński" target="Wojciech Szczęsny">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">37.12142</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Piotr Zieliński" target="Michał Pazdan">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">14.762143625</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Piotr Zieliński" target="Maciej Rybus">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">16.196201375</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Thiago Rangel Cionek" target="Grzegorz Krychowiak">
+  <data key="d8">8</data>
+  <data key="d9">0.125</data>
+  <data key="d10">18.13461425</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Thiago Rangel Cionek" target="Łukasz Piszczek">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">20.227169</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Thiago Rangel Cionek" target="Piotr Zieliński">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">21.25776666666667</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Thiago Rangel Cionek" target="Jakub Błaszczykowski">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">17.243416500000002</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Thiago Rangel Cionek" target="Arkadiusz Milik">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">15.132746</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Thiago Rangel Cionek" target="Robert Lewandowski">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">19.104973</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Thiago Rangel Cionek" target="Wojciech Szczęsny">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">23.420522833333333</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Thiago Rangel Cionek" target="Michał Pazdan">
+  <data key="d8">13</data>
+  <data key="d9">0.07692307692307693</data>
+  <data key="d10">29.928347499999997</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jakub Błaszczykowski" target="Grzegorz Krychowiak">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">16.4469125</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jakub Błaszczykowski" target="Łukasz Piszczek">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">18.668264</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Arkadiusz Milik" target="Piotr Zieliński">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">8.868979233333333</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Arkadiusz Milik" target="Thiago Rangel Cionek">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">21.095022</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Arkadiusz Milik" target="Robert Lewandowski">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">4.472136</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Arkadiusz Milik" target="Michał Pazdan">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">26.076809</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kamil Grosicki" target="Grzegorz Krychowiak">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">18.0</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kamil Grosicki" target="Piotr Zieliński">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">14.932539199999999</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kamil Grosicki" target="Arkadiusz Milik">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">20.0</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Kamil Grosicki" target="Michał Pazdan">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">6.3245554</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kamil Grosicki" target="Maciej Rybus">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">5.0990195</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Robert Lewandowski" target="Grzegorz Krychowiak">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">8.062258</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Robert Lewandowski" target="Łukasz Piszczek">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">14.866069</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Robert Lewandowski" target="Piotr Zieliński">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">16.42384625</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Robert Lewandowski" target="Jakub Błaszczykowski">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">9.219544</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Wojciech Szczęsny" target="Łukasz Piszczek">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">39.661064</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Wojciech Szczęsny" target="Thiago Rangel Cionek">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">23.5404406</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Wojciech Szczęsny" target="Jakub Błaszczykowski">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">63.15853</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Wojciech Szczęsny" target="Michał Pazdan">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">28.37842675</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Michał Pazdan" target="Grzegorz Krychowiak">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">11.222757071428573</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Michał Pazdan" target="Piotr Zieliński">
+  <data key="d8">11</data>
+  <data key="d9">0.09090909090909091</data>
+  <data key="d10">15.803175863636364</data>
+  <data key="d11">5</data>
+</edge>
+<edge source="Michał Pazdan" target="Thiago Rangel Cionek">
+  <data key="d8">12</data>
+  <data key="d9">0.08333333333333333</data>
+  <data key="d10">33.43685908333333</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Michał Pazdan" target="Arkadiusz Milik">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">14.875493</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Michał Pazdan" target="Kamil Grosicki">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">12.165525</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Michał Pazdan" target="Wojciech Szczęsny">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">15.033297</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Michał Pazdan" target="Maciej Rybus">
+  <data key="d8">10</data>
+  <data key="d9">0.1</data>
+  <data key="d10">15.2254732</data>
+  <data key="d11">6</data>
+</edge>
+<edge source="Maciej Rybus" target="Grzegorz Krychowiak">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">14.29727025</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Maciej Rybus" target="Łukasz Piszczek">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">28.071337</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Maciej Rybus" target="Piotr Zieliński">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">4.662277700000001</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Maciej Rybus" target="Arkadiusz Milik">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">24.04163</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Maciej Rybus" target="Kamil Grosicki">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">24.250298333333333</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Maciej Rybus" target="Wojciech Szczęsny">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">43.3054655</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Maciej Rybus" target="Michał Pazdan">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">21.292523</data>
+  <data key="d11">0</data>
+</edge>
+</graph></graphml>

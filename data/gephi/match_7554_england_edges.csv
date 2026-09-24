@@ -1,0 +1,85 @@
+Source,Target,Type,Weight,Distance,Avg_Pass_Distance,Progressive_Passes
+Kyle Walker,Raheem Sterling,Directed,7,0.14285714285714285,15.064943971428573,3
+Kyle Walker,John Stones,Directed,21,0.047619047619047616,15.73827150952381,1
+Kyle Walker,Jesse Lingard,Directed,5,0.2,27.489113099999997,2
+Kyle Walker,Kieran Trippier,Directed,8,0.125,21.3285935625,2
+Kyle Walker,Harry Maguire,Directed,9,0.1111111111111111,40.736142666666666,1
+Kyle Walker,Jordan Pickford,Directed,2,0.5,40.512062,0
+Kyle Walker,Ruben Loftus-Cheek,Directed,5,0.2,21.695755,5
+Kyle Walker,Jordan Brian Henderson,Directed,9,0.1111111111111111,16.344290333333333,2
+Kyle Walker,Ashley Young,Directed,1,1.0,16.03122,0
+Kyle Walker,Harry Kane,Directed,3,0.3333333333333333,14.528250833333333,2
+Raheem Sterling,Kyle Walker,Directed,6,0.16666666666666666,12.587613583333335,0
+Raheem Sterling,John Stones,Directed,5,0.2,12.544231300000002,0
+Raheem Sterling,Jesse Lingard,Directed,5,0.2,8.37915922,0
+Raheem Sterling,Kieran Trippier,Directed,1,1.0,15.0,0
+Raheem Sterling,Harry Maguire,Directed,5,0.2,13.753540300000001,0
+Raheem Sterling,Ruben Loftus-Cheek,Directed,2,0.5,17.222803,1
+Raheem Sterling,Jordan Brian Henderson,Directed,2,0.5,11.7612505,0
+Raheem Sterling,Harry Kane,Directed,1,1.0,12.0,0
+John Stones,Kyle Walker,Directed,21,0.047619047619047616,19.577229,4
+John Stones,Raheem Sterling,Directed,8,0.125,10.509104775,2
+John Stones,Jesse Lingard,Directed,8,0.125,16.8565117875,2
+John Stones,Kieran Trippier,Directed,1,1.0,9.219544,0
+John Stones,Harry Maguire,Directed,8,0.125,23.065325,0
+John Stones,Jordan Pickford,Directed,1,1.0,24.083189,0
+John Stones,Ruben Loftus-Cheek,Directed,4,0.25,27.084391,3
+John Stones,Jordan Brian Henderson,Directed,11,0.09090909090909091,12.371875545454545,1
+Jesse Lingard,Kyle Walker,Directed,2,0.5,23.718687,0
+Jesse Lingard,Raheem Sterling,Directed,5,0.2,7.919098099999999,0
+Jesse Lingard,John Stones,Directed,4,0.25,12.760916125,0
+Jesse Lingard,Kieran Trippier,Directed,2,0.5,14.0,0
+Jesse Lingard,Harry Maguire,Directed,6,0.16666666666666666,14.256557666666666,0
+Jesse Lingard,Ruben Loftus-Cheek,Directed,3,0.3333333333333333,12.792248666666666,1
+Jesse Lingard,Jordan Brian Henderson,Directed,5,0.2,8.736710200000001,0
+Jesse Lingard,Ashley Young,Directed,3,0.3333333333333333,16.320825666666668,0
+Kieran Trippier,Kyle Walker,Directed,10,0.1,15.8072663,0
+Kieran Trippier,Raheem Sterling,Directed,2,0.5,26.1382085,1
+Kieran Trippier,John Stones,Directed,3,0.3333333333333333,23.793898,0
+Kieran Trippier,Jesse Lingard,Directed,3,0.3333333333333333,18.9350115,1
+Kieran Trippier,Harry Maguire,Directed,1,1.0,47.801674,1
+Kieran Trippier,Jordan Pickford,Directed,1,1.0,39.812057,0
+Kieran Trippier,Ruben Loftus-Cheek,Directed,2,0.5,27.0,2
+Kieran Trippier,Jordan Brian Henderson,Directed,2,0.5,11.67765125,0
+Harry Maguire,Kyle Walker,Directed,3,0.3333333333333333,26.342600333333337,0
+Harry Maguire,Raheem Sterling,Directed,5,0.2,13.623079200000001,1
+Harry Maguire,John Stones,Directed,14,0.07142857142857142,17.18221685714286,1
+Harry Maguire,Jesse Lingard,Directed,6,0.16666666666666666,9.486755583333334,2
+Harry Maguire,Jordan Pickford,Directed,3,0.3333333333333333,34.115502666666664,0
+Harry Maguire,Jordan Brian Henderson,Directed,3,0.3333333333333333,15.460890000000001,0
+Harry Maguire,Ashley Young,Directed,10,0.1,15.586531350000001,5
+Harry Maguire,Harry Kane,Directed,1,1.0,37.054016,1
+Jordan Pickford,Kyle Walker,Directed,7,0.14285714285714285,26.230497285714282,4
+Jordan Pickford,Raheem Sterling,Directed,1,1.0,74.96666,1
+Jordan Pickford,John Stones,Directed,2,0.5,17.94765825,2
+Jordan Pickford,Kieran Trippier,Directed,1,1.0,40.22437,1
+Jordan Pickford,Harry Maguire,Directed,2,0.5,28.392439,1
+Jordan Pickford,Ruben Loftus-Cheek,Directed,1,1.0,24.839485,1
+Jordan Pickford,Ashley Young,Directed,1,1.0,13.038404,1
+Ruben Loftus-Cheek,Kyle Walker,Directed,6,0.16666666666666666,11.842080916666667,0
+Ruben Loftus-Cheek,Raheem Sterling,Directed,2,0.5,10.55177325,0
+Ruben Loftus-Cheek,John Stones,Directed,1,1.0,26.0,0
+Ruben Loftus-Cheek,Jesse Lingard,Directed,1,1.0,18.35756,0
+Ruben Loftus-Cheek,Kieran Trippier,Directed,2,0.5,13.189097499999999,0
+Ruben Loftus-Cheek,Jordan Brian Henderson,Directed,6,0.16666666666666666,11.840073949999999,0
+Ruben Loftus-Cheek,Harry Kane,Directed,2,0.5,18.625778,1
+Jordan Brian Henderson,Kyle Walker,Directed,7,0.14285714285714285,15.31576142857143,0
+Jordan Brian Henderson,John Stones,Directed,8,0.125,17.32697,0
+Jordan Brian Henderson,Jesse Lingard,Directed,4,0.25,12.990864,1
+Jordan Brian Henderson,Kieran Trippier,Directed,4,0.25,18.717375750000002,1
+Jordan Brian Henderson,Harry Maguire,Directed,5,0.2,23.2085886,0
+Jordan Brian Henderson,Ruben Loftus-Cheek,Directed,5,0.2,26.6821364,3
+Jordan Brian Henderson,Ashley Young,Directed,2,0.5,33.422824,1
+Jordan Brian Henderson,Harry Kane,Directed,4,0.25,17.86654975,3
+Ashley Young,Kyle Walker,Directed,1,1.0,39.319206,0
+Ashley Young,John Stones,Directed,3,0.3333333333333333,24.68432633333333,0
+Ashley Young,Jesse Lingard,Directed,3,0.3333333333333333,15.422768166666666,2
+Ashley Young,Harry Maguire,Directed,10,0.1,14.784754549999999,0
+Ashley Young,Jordan Pickford,Directed,3,0.3333333333333333,18.094549333333333,0
+Ashley Young,Jordan Brian Henderson,Directed,2,0.5,17.6776695,1
+Ashley Young,Harry Kane,Directed,1,1.0,15.0,1
+Harry Kane,Kyle Walker,Directed,1,1.0,15.652476,0
+Harry Kane,Raheem Sterling,Directed,2,0.5,15.170459000000001,1
+Harry Kane,Jesse Lingard,Directed,3,0.3333333333333333,9.49476,0
+Harry Kane,Jordan Brian Henderson,Directed,2,0.5,9.419816749999999,0
+Harry Kane,Ashley Young,Directed,1,1.0,28.442924,0

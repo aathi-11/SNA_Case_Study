@@ -1,0 +1,65 @@
+Source,Target,Type,Weight,Distance,Avg_Pass_Distance,Progressive_Passes
+Grzegorz Krychowiak,Łukasz Piszczek,Directed,4,0.25,41.300313,2
+Grzegorz Krychowiak,Piotr Zieliński,Directed,7,0.14285714285714285,12.14259142857143,1
+Grzegorz Krychowiak,Thiago Rangel Cionek,Directed,9,0.1111111111111111,20.962906666666665,0
+Grzegorz Krychowiak,Jakub Błaszczykowski,Directed,2,0.5,22.1359435,1
+Grzegorz Krychowiak,Kamil Grosicki,Directed,2,0.5,49.5080215,1
+Grzegorz Krychowiak,Robert Lewandowski,Directed,2,0.5,13.2121527,1
+Grzegorz Krychowiak,Michał Pazdan,Directed,12,0.08333333333333333,23.056758541666667,1
+Grzegorz Krychowiak,Maciej Rybus,Directed,2,0.5,20.1559755,1
+Łukasz Piszczek,Grzegorz Krychowiak,Directed,6,0.16666666666666666,14.0673439,0
+Łukasz Piszczek,Piotr Zieliński,Directed,5,0.2,29.366927599999997,0
+Łukasz Piszczek,Thiago Rangel Cionek,Directed,5,0.2,22.505605600000003,0
+Łukasz Piszczek,Jakub Błaszczykowski,Directed,2,0.5,9.3469362,1
+Łukasz Piszczek,Robert Lewandowski,Directed,2,0.5,18.884864,1
+Piotr Zieliński,Grzegorz Krychowiak,Directed,6,0.16666666666666666,17.107444833333332,0
+Piotr Zieliński,Łukasz Piszczek,Directed,2,0.5,33.849702,1
+Piotr Zieliński,Thiago Rangel Cionek,Directed,2,0.5,35.8479985,0
+Piotr Zieliński,Jakub Błaszczykowski,Directed,4,0.25,38.822452,3
+Piotr Zieliński,Arkadiusz Milik,Directed,4,0.25,11.945639250000001,1
+Piotr Zieliński,Kamil Grosicki,Directed,5,0.2,29.479517680000004,4
+Piotr Zieliński,Robert Lewandowski,Directed,1,1.0,22.090721,1
+Piotr Zieliński,Wojciech Szczęsny,Directed,1,1.0,37.12142,0
+Piotr Zieliński,Michał Pazdan,Directed,4,0.25,14.762143625,0
+Piotr Zieliński,Maciej Rybus,Directed,4,0.25,16.196201375,1
+Thiago Rangel Cionek,Grzegorz Krychowiak,Directed,8,0.125,18.13461425,3
+Thiago Rangel Cionek,Łukasz Piszczek,Directed,6,0.16666666666666666,20.227169,2
+Thiago Rangel Cionek,Piotr Zieliński,Directed,3,0.3333333333333333,21.25776666666667,3
+Thiago Rangel Cionek,Jakub Błaszczykowski,Directed,2,0.5,17.243416500000002,1
+Thiago Rangel Cionek,Arkadiusz Milik,Directed,1,1.0,15.132746,1
+Thiago Rangel Cionek,Robert Lewandowski,Directed,1,1.0,19.104973,1
+Thiago Rangel Cionek,Wojciech Szczęsny,Directed,6,0.16666666666666666,23.420522833333333,0
+Thiago Rangel Cionek,Michał Pazdan,Directed,13,0.07692307692307693,29.928347499999997,1
+Jakub Błaszczykowski,Grzegorz Krychowiak,Directed,2,0.5,16.4469125,1
+Jakub Błaszczykowski,Łukasz Piszczek,Directed,4,0.25,18.668264,0
+Arkadiusz Milik,Piotr Zieliński,Directed,3,0.3333333333333333,8.868979233333333,0
+Arkadiusz Milik,Thiago Rangel Cionek,Directed,1,1.0,21.095022,0
+Arkadiusz Milik,Robert Lewandowski,Directed,2,0.5,4.472136,0
+Arkadiusz Milik,Michał Pazdan,Directed,1,1.0,26.076809,0
+Kamil Grosicki,Grzegorz Krychowiak,Directed,1,1.0,18.0,0
+Kamil Grosicki,Piotr Zieliński,Directed,5,0.2,14.932539199999999,0
+Kamil Grosicki,Arkadiusz Milik,Directed,1,1.0,20.0,1
+Kamil Grosicki,Michał Pazdan,Directed,1,1.0,6.3245554,0
+Kamil Grosicki,Maciej Rybus,Directed,1,1.0,5.0990195,0
+Robert Lewandowski,Grzegorz Krychowiak,Directed,1,1.0,8.062258,0
+Robert Lewandowski,Łukasz Piszczek,Directed,1,1.0,14.866069,0
+Robert Lewandowski,Piotr Zieliński,Directed,4,0.25,16.42384625,0
+Robert Lewandowski,Jakub Błaszczykowski,Directed,1,1.0,9.219544,0
+Wojciech Szczęsny,Łukasz Piszczek,Directed,1,1.0,39.661064,1
+Wojciech Szczęsny,Thiago Rangel Cionek,Directed,5,0.2,23.5404406,2
+Wojciech Szczęsny,Jakub Błaszczykowski,Directed,1,1.0,63.15853,1
+Wojciech Szczęsny,Michał Pazdan,Directed,4,0.25,28.37842675,3
+Michał Pazdan,Grzegorz Krychowiak,Directed,7,0.14285714285714285,11.222757071428573,0
+Michał Pazdan,Piotr Zieliński,Directed,11,0.09090909090909091,15.803175863636364,5
+Michał Pazdan,Thiago Rangel Cionek,Directed,12,0.08333333333333333,33.43685908333333,0
+Michał Pazdan,Arkadiusz Milik,Directed,3,0.3333333333333333,14.875493,2
+Michał Pazdan,Kamil Grosicki,Directed,1,1.0,12.165525,1
+Michał Pazdan,Wojciech Szczęsny,Directed,1,1.0,15.033297,0
+Michał Pazdan,Maciej Rybus,Directed,10,0.1,15.2254732,6
+Maciej Rybus,Grzegorz Krychowiak,Directed,2,0.5,14.29727025,0
+Maciej Rybus,Łukasz Piszczek,Directed,1,1.0,28.071337,0
+Maciej Rybus,Piotr Zieliński,Directed,2,0.5,4.662277700000001,0
+Maciej Rybus,Arkadiusz Milik,Directed,1,1.0,24.04163,1
+Maciej Rybus,Kamil Grosicki,Directed,3,0.3333333333333333,24.250298333333333,2
+Maciej Rybus,Wojciech Szczęsny,Directed,2,0.5,43.3054655,0
+Maciej Rybus,Michał Pazdan,Directed,6,0.16666666666666666,21.292523,0

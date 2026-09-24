@@ -1,0 +1,614 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="progressive_passes" attr.type="long"/>
+<key id="d10" for="edge" attr.name="avg_distance" attr.type="double"/>
+<key id="d9" for="edge" attr.name="distance" attr.type="double"/>
+<key id="d8" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d7" for="node" attr.name="passes_received" attr.type="long"/>
+<key id="d6" for="node" attr.name="passes_made" attr.type="long"/>
+<key id="d5" for="node" attr.name="avg_y" attr.type="double"/>
+<key id="d4" for="node" attr.name="avg_x" attr.type="double"/>
+<key id="d3" for="node" attr.name="team" attr.type="string"/>
+<key id="d2" for="node" attr.name="player_id" attr.type="long"/>
+<key id="d1" for="graph" attr.name="team_name" attr.type="string"/>
+<key id="d0" for="graph" attr.name="match_id" attr.type="long"/>
+<graph edgedefault="directed"><data key="d0">8650</data>
+<data key="d1">Belgium</data>
+<node id="Jan Vertonghen">
+  <data key="d2">3077</data>
+  <data key="d3">Belgium</data>
+  <data key="d4">47.24324324324324</data>
+  <data key="d5">13.135135135135135</data>
+  <data key="d6">37</data>
+  <data key="d7">33</data>
+</node>
+<node id="Kevin De Bruyne">
+  <data key="d2">3089</data>
+  <data key="d3">Belgium</data>
+  <data key="d4">67.93333333333334</data>
+  <data key="d5">37.36666666666667</data>
+  <data key="d6">30</data>
+  <data key="d7">26</data>
+</node>
+<node id="Vincent Kompany">
+  <data key="d2">3101</data>
+  <data key="d3">Belgium</data>
+  <data key="d4">33.82857142857143</data>
+  <data key="d5">33.74285714285714</data>
+  <data key="d6">35</data>
+  <data key="d7">34</data>
+</node>
+<node id="Thomas Meunier">
+  <data key="d2">3176</data>
+  <data key="d3">Belgium</data>
+  <data key="d4">54.21052631578947</data>
+  <data key="d5">70.52631578947368</data>
+  <data key="d6">19</data>
+  <data key="d7">16</data>
+</node>
+<node id="Romelu Lukaku Menama">
+  <data key="d2">3289</data>
+  <data key="d3">Belgium</data>
+  <data key="d4">68.44444444444444</data>
+  <data key="d5">55.77777777777778</data>
+  <data key="d6">9</data>
+  <data key="d7">19</data>
+</node>
+<node id="Marouane Fellaini-Bakkioui">
+  <data key="d2">3296</data>
+  <data key="d3">Belgium</data>
+  <data key="d4">53.88461538461539</data>
+  <data key="d5">54.03846153846154</data>
+  <data key="d6">26</data>
+  <data key="d7">24</data>
+</node>
+<node id="Thibaut Courtois">
+  <data key="d2">3509</data>
+  <data key="d3">Belgium</data>
+  <data key="d4">12.571428571428571</data>
+  <data key="d5">35.857142857142854</data>
+  <data key="d6">14</data>
+  <data key="d7">13</data>
+</node>
+<node id="Eden Hazard">
+  <data key="d2">3621</data>
+  <data key="d3">Belgium</data>
+  <data key="d4">71.85714285714286</data>
+  <data key="d5">22.678571428571427</data>
+  <data key="d6">28</data>
+  <data key="d7">39</data>
+</node>
+<node id="Nacer Chadli">
+  <data key="d2">4831</data>
+  <data key="d3">Belgium</data>
+  <data key="d4">66.11111111111111</data>
+  <data key="d5">8.74074074074074</data>
+  <data key="d6">27</data>
+  <data key="d7">24</data>
+</node>
+<node id="Axel Witsel">
+  <data key="d2">5642</data>
+  <data key="d3">Belgium</data>
+  <data key="d4">54.46666666666667</data>
+  <data key="d5">41.233333333333334</data>
+  <data key="d6">30</data>
+  <data key="d7">29</data>
+</node>
+<node id="Toby Alderweireld">
+  <data key="d2">20005</data>
+  <data key="d3">Belgium</data>
+  <data key="d4">34.083333333333336</data>
+  <data key="d5">54.583333333333336</data>
+  <data key="d6">24</data>
+  <data key="d7">22</data>
+</node>
+<edge source="Jan Vertonghen" target="Kevin De Bruyne">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">30.62144033333333</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Jan Vertonghen" target="Vincent Kompany">
+  <data key="d8">15</data>
+  <data key="d9">0.06666666666666667</data>
+  <data key="d10">23.9446735</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Jan Vertonghen" target="Marouane Fellaini-Bakkioui">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">19.255851</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Jan Vertonghen" target="Thibaut Courtois">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">32.7597475</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Jan Vertonghen" target="Eden Hazard">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">26.290854500000002</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Jan Vertonghen" target="Nacer Chadli">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">24.90583033333333</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Jan Vertonghen" target="Axel Witsel">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">12.400453625</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Jan Vertonghen" target="Toby Alderweireld">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">32.3831115</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kevin De Bruyne" target="Jan Vertonghen">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">39.33901</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kevin De Bruyne" target="Thomas Meunier">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">10.770329</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kevin De Bruyne" target="Romelu Lukaku Menama">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">27.275530000000003</data>
+  <data key="d11">5</data>
+</edge>
+<edge source="Kevin De Bruyne" target="Marouane Fellaini-Bakkioui">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">19.224768666666666</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Kevin De Bruyne" target="Thibaut Courtois">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">18.439089</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Kevin De Bruyne" target="Eden Hazard">
+  <data key="d8">8</data>
+  <data key="d9">0.125</data>
+  <data key="d10">17.3362943625</data>
+  <data key="d11">4</data>
+</edge>
+<edge source="Kevin De Bruyne" target="Nacer Chadli">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">19.687216466666666</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Kevin De Bruyne" target="Axel Witsel">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">19.73637108</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Vincent Kompany" target="Jan Vertonghen">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">20.64188808333333</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Vincent Kompany" target="Kevin De Bruyne">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">31.890438</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Vincent Kompany" target="Thomas Meunier">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">41.64732</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Vincent Kompany" target="Romelu Lukaku Menama">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">90.33826</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Vincent Kompany" target="Marouane Fellaini-Bakkioui">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">34.43835</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Vincent Kompany" target="Thibaut Courtois">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">26.960684333333333</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Vincent Kompany" target="Eden Hazard">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">33.83669475</data>
+  <data key="d11">4</data>
+</edge>
+<edge source="Vincent Kompany" target="Axel Witsel">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">12.4418492</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Vincent Kompany" target="Toby Alderweireld">
+  <data key="d8">12</data>
+  <data key="d9">0.08333333333333333</data>
+  <data key="d10">23.8475035</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Thomas Meunier" target="Kevin De Bruyne">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">15.811388</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Thomas Meunier" target="Romelu Lukaku Menama">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">33.25880133333333</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Thomas Meunier" target="Marouane Fellaini-Bakkioui">
+  <data key="d8">10</data>
+  <data key="d9">0.1</data>
+  <data key="d10">17.66788675</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Thomas Meunier" target="Eden Hazard">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">47.201694</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Thomas Meunier" target="Axel Witsel">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">12.0415945</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Thomas Meunier" target="Toby Alderweireld">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">19.096898</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Romelu Lukaku Menama" target="Jan Vertonghen">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">52.34501</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Romelu Lukaku Menama" target="Kevin De Bruyne">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">16.18817275</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Romelu Lukaku Menama" target="Thomas Meunier">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">18.433145</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Romelu Lukaku Menama" target="Nacer Chadli">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">53.0</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Romelu Lukaku Menama" target="Axel Witsel">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">7.28011</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Marouane Fellaini-Bakkioui" target="Jan Vertonghen">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">22.9065865</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Marouane Fellaini-Bakkioui" target="Kevin De Bruyne">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">18.31777865</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Marouane Fellaini-Bakkioui" target="Vincent Kompany">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">19.059422333333334</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Marouane Fellaini-Bakkioui" target="Thomas Meunier">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">15.09234185</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Marouane Fellaini-Bakkioui" target="Romelu Lukaku Menama">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">28.500035</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Marouane Fellaini-Bakkioui" target="Eden Hazard">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">17.093619166666667</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Marouane Fellaini-Bakkioui" target="Nacer Chadli">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">19.416489</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Marouane Fellaini-Bakkioui" target="Axel Witsel">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">15.430908333333335</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Marouane Fellaini-Bakkioui" target="Toby Alderweireld">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">18.5286985</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Thibaut Courtois" target="Jan Vertonghen">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">24.062391333333334</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Thibaut Courtois" target="Kevin De Bruyne">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">68.0147</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Thibaut Courtois" target="Vincent Kompany">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">8.944272</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Thibaut Courtois" target="Thomas Meunier">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">40.804413</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Thibaut Courtois" target="Romelu Lukaku Menama">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">68.96376</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Thibaut Courtois" target="Marouane Fellaini-Bakkioui">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">67.08204</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Thibaut Courtois" target="Eden Hazard">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">57.96770600000001</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Thibaut Courtois" target="Nacer Chadli">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">43.986447999999996</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Thibaut Courtois" target="Toby Alderweireld">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">9.0621786</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Eden Hazard" target="Jan Vertonghen">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">12.815856</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Eden Hazard" target="Kevin De Bruyne">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">15.854064375</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Eden Hazard" target="Vincent Kompany">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">17.0</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Eden Hazard" target="Thomas Meunier">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">23.34520475</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Eden Hazard" target="Romelu Lukaku Menama">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">28.600698</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Eden Hazard" target="Marouane Fellaini-Bakkioui">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">22.135944</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Eden Hazard" target="Nacer Chadli">
+  <data key="d8">12</data>
+  <data key="d9">0.08333333333333333</data>
+  <data key="d10">12.658314916666667</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Eden Hazard" target="Axel Witsel">
+  <data key="d8">5</data>
+  <data key="d9">0.2</data>
+  <data key="d10">13.765720300000002</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Nacer Chadli" target="Jan Vertonghen">
+  <data key="d8">10</data>
+  <data key="d9">0.1</data>
+  <data key="d10">16.485453200000002</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Nacer Chadli" target="Kevin De Bruyne">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">18.137639625</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Nacer Chadli" target="Vincent Kompany">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">30.265491</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Nacer Chadli" target="Romelu Lukaku Menama">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">21.189621</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Nacer Chadli" target="Thibaut Courtois">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">32.202484</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Nacer Chadli" target="Eden Hazard">
+  <data key="d8">9</data>
+  <data key="d9">0.1111111111111111</data>
+  <data key="d10">12.082983599999999</data>
+  <data key="d11">4</data>
+</edge>
+<edge source="Nacer Chadli" target="Axel Witsel">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">14.56022</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Axel Witsel" target="Jan Vertonghen">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">21.28005825</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Axel Witsel" target="Kevin De Bruyne">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">11.666326999999999</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Axel Witsel" target="Vincent Kompany">
+  <data key="d8">7</data>
+  <data key="d9">0.14285714285714285</data>
+  <data key="d10">13.384298642857143</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Axel Witsel" target="Thomas Meunier">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">10.198039</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Axel Witsel" target="Marouane Fellaini-Bakkioui">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">11.698039</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Axel Witsel" target="Eden Hazard">
+  <data key="d8">8</data>
+  <data key="d9">0.125</data>
+  <data key="d10">12.8802366875</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Axel Witsel" target="Nacer Chadli">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">20.224014500000003</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Axel Witsel" target="Toby Alderweireld">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">10.630146</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Toby Alderweireld" target="Jan Vertonghen">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">32.478536500000004</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Toby Alderweireld" target="Kevin De Bruyne">
+  <data key="d8">2</data>
+  <data key="d9">0.5</data>
+  <data key="d10">17.4093575</data>
+  <data key="d11">1</data>
+</edge>
+<edge source="Toby Alderweireld" target="Vincent Kompany">
+  <data key="d8">6</data>
+  <data key="d9">0.16666666666666666</data>
+  <data key="d10">22.556052833333336</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Toby Alderweireld" target="Thomas Meunier">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">27.707774999999998</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Toby Alderweireld" target="Romelu Lukaku Menama">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">43.665516</data>
+  <data key="d11">3</data>
+</edge>
+<edge source="Toby Alderweireld" target="Marouane Fellaini-Bakkioui">
+  <data key="d8">3</data>
+  <data key="d9">0.3333333333333333</data>
+  <data key="d10">15.552268</data>
+  <data key="d11">2</data>
+</edge>
+<edge source="Toby Alderweireld" target="Thibaut Courtois">
+  <data key="d8">4</data>
+  <data key="d9">0.25</data>
+  <data key="d10">21.594808</data>
+  <data key="d11">0</data>
+</edge>
+<edge source="Toby Alderweireld" target="Axel Witsel">
+  <data key="d8">1</data>
+  <data key="d9">1.0</data>
+  <data key="d10">10.049875</data>
+  <data key="d11">0</data>
+</edge>
+</graph></graphml>
