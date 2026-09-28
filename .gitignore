@@ -42,3 +42,11 @@ Rubric Criteria for Social Network Case Study.docx
 # OS specific files
 .DS_Store
 Thumbs.db
+
+PLAN.md
+SNA_CASE_STUDY_GUIDE.md
+code_plan.md
+
+myvenv/*
+
+TODO.md

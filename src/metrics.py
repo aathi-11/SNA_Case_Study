@@ -40,6 +40,33 @@ def freeman_betweenness_centralization(bet_dict: dict, N: int) -> float:
     return float(sum(max_bet - b for b in bets) / (N - 1))
 
 
+def compute_node_removal_vulnerability(G: nx.DiGraph) -> dict:
+    """
+    Simulate removing each player k and measure percentage drop in Global Efficiency:
+    ΔE_k = (E_baseline - E(G \\ {k})) / E_baseline * 100%
+    """
+    G_und = G.to_undirected(reciprocal=False)
+    try:
+        baseline_eff = nx.global_efficiency(G_und)
+    except Exception:
+        baseline_eff = 0.0
+    
+    vulnerability = {}
+    for node in G.nodes():
+        G_sub = G_und.copy()
+        G_sub.remove_node(node)
+        try:
+            eff_sub = nx.global_efficiency(G_sub) if G_sub.number_of_nodes() > 1 else 0.0
+        except Exception:
+            eff_sub = 0.0
+        drop_pct = ((baseline_eff - eff_sub) / baseline_eff * 100.0) if baseline_eff > 0 else 0.0
+        vulnerability[node] = {
+            "efficiency_drop_pct": float(drop_pct),
+            "subgraph_efficiency": float(eff_sub)
+        }
+    return vulnerability
+
+
 def compute_team_metrics(G: nx.DiGraph) -> dict:
     """Compute all structural team-level passing network metrics."""
     N = G.number_of_nodes()
@@ -81,6 +108,11 @@ def compute_team_metrics(G: nx.DiGraph) -> dict:
     except Exception:
         global_eff = 0.0
         
+    # Vulnerability and SPOF
+    vuln_dict = compute_node_removal_vulnerability(G)
+    max_drop = max([v["efficiency_drop_pct"] for v in vuln_dict.values()]) if vuln_dict else 0.0
+    is_spof = bool((playmaker_share > 0.30) and (bet_centralization > 0.22) and (max_drop > 25.0))
+        
     return {
         "num_players": N,
         "num_edges": G.number_of_edges(),
@@ -93,6 +125,8 @@ def compute_team_metrics(G: nx.DiGraph) -> dict:
         "playmaker_name": top_playmaker,
         "playmaker_betweenness": float(top_bet),
         "playmaker_share": float(playmaker_share),
+        "max_efficiency_drop": float(max_drop),
+        "is_spof": is_spof,
     }
 
 
@@ -128,11 +162,15 @@ def compute_player_metrics(G: nx.DiGraph) -> list:
     in_deg_unweighted = dict(G.in_degree())
     out_deg_unweighted = dict(G.out_degree())
     
+    vuln_dict = compute_node_removal_vulnerability(G)
+    
     player_metrics = []
     for node, data in G.nodes(data=True):
         player_metrics.append({
             "player_name": node,
             "player_id": data.get("player_id"),
+            "nominal_position": data.get("nominal_position", "Unknown"),
+            "tactical_line": data.get("tactical_line", "Unknown"),
             "avg_x": data.get("avg_x", 0.0),
             "avg_y": data.get("avg_y", 0.0),
             "in_degree_weighted": int(in_deg_weighted.get(node, 0)),
@@ -143,6 +181,7 @@ def compute_player_metrics(G: nx.DiGraph) -> list:
             "betweenness_centrality": float(betweenness.get(node, 0.0)),
             "eigenvector_centrality": float(eigenvector.get(node, 0.0)),
             "closeness_centrality": float(closeness.get(node, 0.0)),
+            "efficiency_drop_pct": float(vuln_dict.get(node, {}).get("efficiency_drop_pct", 0.0)),
         })
         
     return player_metrics
@@ -177,6 +216,9 @@ def run_metrics_pipeline():
             pm["season_name"] = row["season_name"]
             pm["result"] = row["result"]
             player_metrics_list.append(pm)
+
+        if(idx % 20 == 0):
+            print(f"Done {idx + 1} matches")
             
     print("Saving network metrics Parquet tables...")
     

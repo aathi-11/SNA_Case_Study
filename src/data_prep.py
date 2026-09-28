@@ -17,12 +17,6 @@ RAW_DIR = DATA_DIR / "raw"
 EVENTS_DIR = RAW_DIR / "events"
 PROCESSED_DIR = DATA_DIR / "processed"
 
-# Target competitions: FIFA World Cup 2018 (43, 3) and 2022 (43, 106)
-TARGET_COMPETITIONS = [
-    {"competition_id": 43, "season_id": 3, "season_name": "2018"},
-    {"competition_id": 43, "season_id": 106, "season_name": "2022"},
-]
-
 BASE_URL = "https://raw.githubusercontent.com/statsbomb/open-data/master/data"
 
 
@@ -38,7 +32,11 @@ def fetch_json(url: str, max_retries: int = 3, delay: float = 0.5) -> dict:
                 raise RuntimeError(f"Failed to fetch {url}: {e}")
             time.sleep(delay * (attempt + 1))
 
-
+# Target competitions: FIFA World Cup 2018 (43, 3) and 2022 (43, 106)
+TARGET_COMPETITIONS = [
+    {"competition_id": 43, "season_id": 3, "season_name": "2018"},
+    {"competition_id": 43, "season_id": 106, "season_name": "2022"},
+]
 def download_raw_data(force: bool = False) -> list:
     """
     Download raw match metadata and event files from StatsBomb open data.
@@ -71,6 +69,18 @@ def download_raw_data(force: bool = False) -> list:
             else:
                 home_outcome, away_outcome = "Draw", "Draw"
                 
+            stage_name = m.get("competition_stage", {}).get("name", "Unknown")
+            stage_order_map = {
+                "Group Stage": 1,
+                "Round of 16": 2,
+                "Quarter-finals": 3,
+                "Semi-finals": 4,
+                "3rd Place Final": 4,
+                "Final": 5
+            }
+            stage_order = stage_order_map.get(stage_name, 0)
+            
+            # Get all info about a match including stage name
             matches_list.append({
                 "match_id": m["match_id"],
                 "match_date": m["match_date"],
@@ -86,6 +96,8 @@ def download_raw_data(force: bool = False) -> list:
                 "away_score": a_score,
                 "home_outcome": home_outcome,
                 "away_outcome": away_outcome,
+                "stage_name": stage_name,
+                "stage_order": stage_order,
                 "stadium": m.get("stadium", {}).get("name", "Unknown") if isinstance(m.get("stadium"), dict) else "Unknown",
             })
             
@@ -151,6 +163,17 @@ def is_before_cutoff(period: int, minute: int, second: int, cutoff: tuple) -> bo
     return (period, minute, second) < cutoff
 
 
+def get_tactical_line(pos_name: str) -> str:
+    if not pos_name:
+        return "Unknown"
+    pos = pos_name.lower()
+    if "goalkeeper" in pos: return "GK"
+    if "back" in pos: return "DF"
+    if "midfield" in pos: return "MF"
+    if "forward" in pos or "striker" in pos or "wing" in pos: return "FW"
+    return "Unknown"
+
+
 def process_dataset():
     """
     Process raw match and event files:
@@ -169,6 +192,7 @@ def process_dataset():
     edges_list = []
     player_stats_list = []
     team_summaries = []
+    shot_events_list = []
     
     print(f"Processing event logs for {len(matches_df)} matches...")
     
@@ -183,6 +207,27 @@ def process_dataset():
             events = json.load(f)
             
         cutoff_times = get_first_sub_or_red_card_time(events)
+        
+        player_positions = {}
+        for e in events:
+            if e.get("type", {}).get("name") == "Starting XI":
+                for p in e.get("tactics", {}).get("lineup", []):
+                    pos = p.get("position", {}).get("name")
+                    player_name = p.get("player", {}).get("name")
+                    player_positions[player_name] = pos
+            elif e.get("type", {}).get("name") == "Shot":
+                shot_info = e.get("shot", {})
+                shot_events_list.append({
+                    "match_id": match_id,
+                    "team_name": e.get("team", {}).get("name"),
+                    "player_name": e.get("player", {}).get("name"),
+                    "period": e.get("period"),
+                    "minute": e.get("minute"),
+                    "second": e.get("second"),
+                    "possession": e.get("possession"),
+                    "shot_statsbomb_xg": shot_info.get("statsbomb_xg"),
+                    "outcome": shot_info.get("outcome", {}).get("name")
+                })
         
         # Process teams in this match
         for team_name, outcome, score, opp_name, opp_score in [
@@ -233,6 +278,7 @@ def process_dataset():
                                     "period": period,
                                     "minute": minute,
                                     "second": second,
+                                    "possession": e.get("possession"),
                                     "passer_id": player_id,
                                     "passer_name": player_name,
                                     "recipient_id": recip_id,
@@ -289,11 +335,17 @@ def process_dataset():
                 
                 players_df = pd.merge(passers, recips, on=["player_id", "player_name"], how="outer").fillna(0)
                 for _, prow in players_df.iterrows():
+                    pname = prow["player_name"]
+                    nom_pos = player_positions.get(pname, "Unknown")
+                    tac_line = get_tactical_line(nom_pos)
+                    
                     player_stats_list.append({
                         "match_id": match_id,
                         "team_name": team_name,
                         "player_id": prow["player_id"],
-                        "player_name": prow["player_name"],
+                        "player_name": pname,
+                        "nominal_position": nom_pos,
+                        "tactical_line": tac_line,
                         "avg_x": prow["avg_x"],
                         "avg_y": prow["avg_y"],
                         "passes_made": int(prow["passes_made"]),
@@ -343,6 +395,10 @@ def process_dataset():
     team_summary_parquet = PROCESSED_DIR / "team_match_summary.parquet"
     pd.DataFrame(team_summaries).to_parquet(team_summary_parquet, index=False)
     print(f"  - Team match summaries & playing style: {team_summary_parquet} ({len(team_summaries)} team-matches)")
+
+    shots_parquet = PROCESSED_DIR / "shot_events.parquet"
+    pd.DataFrame(shot_events_list).to_parquet(shots_parquet, index=False)
+    print(f"  - Shot events & chance creation: {shots_parquet} ({len(shot_events_list)} rows)")
 
     print("\nDataset preparation completed successfully!")
 

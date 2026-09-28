@@ -1,488 +1,515 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="progressive_passes" attr.type="long"/>
-<key id="d10" for="edge" attr.name="avg_distance" attr.type="double"/>
-<key id="d9" for="edge" attr.name="distance" attr.type="double"/>
-<key id="d8" for="edge" attr.name="weight" attr.type="long"/>
-<key id="d7" for="node" attr.name="passes_received" attr.type="long"/>
-<key id="d6" for="node" attr.name="passes_made" attr.type="long"/>
-<key id="d5" for="node" attr.name="avg_y" attr.type="double"/>
-<key id="d4" for="node" attr.name="avg_x" attr.type="double"/>
-<key id="d3" for="node" attr.name="team" attr.type="string"/>
-<key id="d2" for="node" attr.name="player_id" attr.type="long"/>
-<key id="d1" for="graph" attr.name="team_name" attr.type="string"/>
-<key id="d0" for="graph" attr.name="match_id" attr.type="long"/>
-<graph edgedefault="directed"><data key="d0">8650</data>
-<data key="d1">Brazil</data>
-<node id="Fernando Luiz Roza">
-  <data key="d2">3054</data>
-  <data key="d3">Brazil</data>
-  <data key="d4">60.30769230769231</data>
-  <data key="d5">38.53846153846154</data>
-  <data key="d6">26</data>
-  <data key="d7">22</data>
-</node>
-<node id="Gabriel Fernando de Jesus">
-  <data key="d2">3202</data>
-  <data key="d3">Brazil</data>
-  <data key="d4">100.66666666666667</data>
-  <data key="d5">29.666666666666668</data>
-  <data key="d6">3</data>
-  <data key="d7">4</data>
-</node>
-<node id="Thiago Emiliano da Silva">
-  <data key="d2">3295</data>
-  <data key="d3">Brazil</data>
-  <data key="d4">43.2962962962963</data>
-  <data key="d5">49.888888888888886</data>
-  <data key="d6">27</data>
-  <data key="d7">26</data>
-</node>
-<node id="Willian Borges da Silva">
-  <data key="d2">3472</data>
-  <data key="d3">Brazil</data>
-  <data key="d4">83.6</data>
-  <data key="d5">62.13333333333333</data>
-  <data key="d6">15</data>
-  <data key="d7">18</data>
-</node>
-<node id="Philippe Coutinho Correia">
-  <data key="d2">3501</data>
-  <data key="d3">Brazil</data>
-  <data key="d4">74.55882352941177</data>
-  <data key="d5">23.0</data>
-  <data key="d6">34</data>
-  <data key="d7">36</data>
-</node>
-<node id="Neymar da Silva Santos Junior">
-  <data key="d2">4320</data>
-  <data key="d3">Brazil</data>
-  <data key="d4">87.92</data>
-  <data key="d5">17.72</data>
-  <data key="d6">25</data>
-  <data key="d7">29</data>
-</node>
-<node id="José Paulo Bezzera Maciel Júnior">
-  <data key="d2">5542</data>
-  <data key="d3">Brazil</data>
-  <data key="d4">63.68181818181818</data>
-  <data key="d5">50.45454545454545</data>
-  <data key="d6">22</data>
-  <data key="d7">24</data>
-</node>
-<node id="Alisson Ramsés Becker">
-  <data key="d2">5547</data>
-  <data key="d3">Brazil</data>
-  <data key="d4">8.5</data>
-  <data key="d5">43.5</data>
-  <data key="d6">2</data>
-  <data key="d7">1</data>
-</node>
-<node id="João Miranda de Souza Filho">
-  <data key="d2">5551</data>
-  <data key="d3">Brazil</data>
-  <data key="d4">47.04545454545455</data>
-  <data key="d5">26.90909090909091</data>
-  <data key="d6">22</data>
-  <data key="d7">19</data>
-</node>
-<node id="Marcelo Vieira da Silva Júnior">
-  <data key="d2">5552</data>
-  <data key="d3">Brazil</data>
-  <data key="d4">71.59375</data>
-  <data key="d5">10.21875</data>
-  <data key="d6">32</data>
-  <data key="d7">33</data>
-</node>
-<node id="Fágner Conserva Lemos">
-  <data key="d2">5838</data>
-  <data key="d3">Brazil</data>
-  <data key="d4">54.833333333333336</data>
-  <data key="d5">71.5</data>
-  <data key="d6">18</data>
-  <data key="d7">14</data>
-</node>
-<edge source="Fernando Luiz Roza" target="Thiago Emiliano da Silva">
-  <data key="d8">2</data>
-  <data key="d9">0.5</data>
-  <data key="d10">12.32258</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Fernando Luiz Roza" target="Willian Borges da Silva">
-  <data key="d8">5</data>
-  <data key="d9">0.2</data>
-  <data key="d10">25.0133334</data>
-  <data key="d11">2</data>
-</edge>
-<edge source="Fernando Luiz Roza" target="Philippe Coutinho Correia">
-  <data key="d8">6</data>
-  <data key="d9">0.16666666666666666</data>
-  <data key="d10">15.310130666666666</data>
-  <data key="d11">1</data>
-</edge>
-<edge source="Fernando Luiz Roza" target="Neymar da Silva Santos Junior">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">29.068884</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Fernando Luiz Roza" target="José Paulo Bezzera Maciel Júnior">
-  <data key="d8">6</data>
-  <data key="d9">0.16666666666666666</data>
-  <data key="d10">12.506152083333333</data>
-  <data key="d11">1</data>
-</edge>
-<edge source="Fernando Luiz Roza" target="João Miranda de Souza Filho">
-  <data key="d8">2</data>
-  <data key="d9">0.5</data>
-  <data key="d10">5.61226785</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Fernando Luiz Roza" target="Marcelo Vieira da Silva Júnior">
-  <data key="d8">2</data>
-  <data key="d9">0.5</data>
-  <data key="d10">19.5256415</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Fernando Luiz Roza" target="Fágner Conserva Lemos">
-  <data key="d8">2</data>
-  <data key="d9">0.5</data>
-  <data key="d10">16.569077</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Gabriel Fernando de Jesus" target="Philippe Coutinho Correia">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">10.630146</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Gabriel Fernando de Jesus" target="Neymar da Silva Santos Junior">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">11.661903</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Gabriel Fernando de Jesus" target="José Paulo Bezzera Maciel Júnior">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">5.0</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Thiago Emiliano da Silva" target="Fernando Luiz Roza">
-  <data key="d8">2</data>
-  <data key="d9">0.5</data>
-  <data key="d10">16.3459035</data>
-  <data key="d11">1</data>
-</edge>
-<edge source="Thiago Emiliano da Silva" target="Gabriel Fernando de Jesus">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">12.206555</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Thiago Emiliano da Silva" target="Willian Borges da Silva">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">36.05551</data>
-  <data key="d11">1</data>
-</edge>
-<edge source="Thiago Emiliano da Silva" target="Philippe Coutinho Correia">
-  <data key="d8">3</data>
-  <data key="d9">0.3333333333333333</data>
-  <data key="d10">26.242958666666667</data>
-  <data key="d11">1</data>
-</edge>
-<edge source="Thiago Emiliano da Silva" target="Neymar da Silva Santos Junior">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">55.03635</data>
-  <data key="d11">1</data>
-</edge>
-<edge source="Thiago Emiliano da Silva" target="José Paulo Bezzera Maciel Júnior">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">14.21267</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Thiago Emiliano da Silva" target="João Miranda de Souza Filho">
-  <data key="d8">8</data>
-  <data key="d9">0.125</data>
-  <data key="d10">20.999306875</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Thiago Emiliano da Silva" target="Marcelo Vieira da Silva Júnior">
-  <data key="d8">4</data>
-  <data key="d9">0.25</data>
-  <data key="d10">36.1488195</data>
-  <data key="d11">3</data>
-</edge>
-<edge source="Thiago Emiliano da Silva" target="Fágner Conserva Lemos">
-  <data key="d8">6</data>
-  <data key="d9">0.16666666666666666</data>
-  <data key="d10">25.35380166666667</data>
-  <data key="d11">2</data>
-</edge>
-<edge source="Willian Borges da Silva" target="Fernando Luiz Roza">
-  <data key="d8">3</data>
-  <data key="d9">0.3333333333333333</data>
-  <data key="d10">11.8438649</data>
-  <data key="d11">1</data>
-</edge>
-<edge source="Willian Borges da Silva" target="Thiago Emiliano da Silva">
-  <data key="d8">2</data>
-  <data key="d9">0.5</data>
-  <data key="d10">28.9364365</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Willian Borges da Silva" target="Philippe Coutinho Correia">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">39.012817</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Willian Borges da Silva" target="Neymar da Silva Santos Junior">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">16.552946</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Willian Borges da Silva" target="José Paulo Bezzera Maciel Júnior">
-  <data key="d8">6</data>
-  <data key="d9">0.16666666666666666</data>
-  <data key="d10">18.429494666666667</data>
-  <data key="d11">1</data>
-</edge>
-<edge source="Willian Borges da Silva" target="João Miranda de Souza Filho">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">33.30165</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Willian Borges da Silva" target="Marcelo Vieira da Silva Júnior">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">36.124783</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Philippe Coutinho Correia" target="Fernando Luiz Roza">
-  <data key="d8">9</data>
-  <data key="d9">0.1111111111111111</data>
-  <data key="d10">11.803186577777778</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Philippe Coutinho Correia" target="Thiago Emiliano da Silva">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">16.492422</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Philippe Coutinho Correia" target="Willian Borges da Silva">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">51.351727</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Philippe Coutinho Correia" target="Neymar da Silva Santos Junior">
-  <data key="d8">10</data>
-  <data key="d9">0.1</data>
-  <data key="d10">12.571235900000001</data>
-  <data key="d11">5</data>
-</edge>
-<edge source="Philippe Coutinho Correia" target="José Paulo Bezzera Maciel Júnior">
-  <data key="d8">4</data>
-  <data key="d9">0.25</data>
-  <data key="d10">13.75361775</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Philippe Coutinho Correia" target="Marcelo Vieira da Silva Júnior">
-  <data key="d8">9</data>
-  <data key="d9">0.1111111111111111</data>
-  <data key="d10">17.900693833333335</data>
-  <data key="d11">4</data>
-</edge>
-<edge source="Neymar da Silva Santos Junior" target="Fernando Luiz Roza">
-  <data key="d8">3</data>
-  <data key="d9">0.3333333333333333</data>
-  <data key="d10">18.738026333333334</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Neymar da Silva Santos Junior" target="Gabriel Fernando de Jesus">
-  <data key="d8">2</data>
-  <data key="d9">0.5</data>
-  <data key="d10">16.662277</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Neymar da Silva Santos Junior" target="Thiago Emiliano da Silva">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">37.12142</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Neymar da Silva Santos Junior" target="Willian Borges da Silva">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">25.079872</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Neymar da Silva Santos Junior" target="Philippe Coutinho Correia">
-  <data key="d8">7</data>
-  <data key="d9">0.14285714285714285</data>
-  <data key="d10">10.0137845</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Neymar da Silva Santos Junior" target="João Miranda de Souza Filho">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">14.0</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Neymar da Silva Santos Junior" target="Marcelo Vieira da Silva Júnior">
-  <data key="d8">10</data>
-  <data key="d9">0.1</data>
-  <data key="d10">12.806154900000001</data>
-  <data key="d11">3</data>
-</edge>
-<edge source="José Paulo Bezzera Maciel Júnior" target="Fernando Luiz Roza">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">17.20465</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="José Paulo Bezzera Maciel Júnior" target="Thiago Emiliano da Silva">
-  <data key="d8">4</data>
-  <data key="d9">0.25</data>
-  <data key="d10">10.325087925</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="José Paulo Bezzera Maciel Júnior" target="Willian Borges da Silva">
-  <data key="d8">5</data>
-  <data key="d9">0.2</data>
-  <data key="d10">19.6455792</data>
-  <data key="d11">2</data>
-</edge>
-<edge source="José Paulo Bezzera Maciel Júnior" target="Philippe Coutinho Correia">
-  <data key="d8">3</data>
-  <data key="d9">0.3333333333333333</data>
-  <data key="d10">15.873757666666664</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="José Paulo Bezzera Maciel Júnior" target="João Miranda de Souza Filho">
-  <data key="d8">3</data>
-  <data key="d9">0.3333333333333333</data>
-  <data key="d10">10.564464000000001</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="José Paulo Bezzera Maciel Júnior" target="Fágner Conserva Lemos">
-  <data key="d8">6</data>
-  <data key="d9">0.16666666666666666</data>
-  <data key="d10">16.554349333333334</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Alisson Ramsés Becker" target="Thiago Emiliano da Silva">
-  <data key="d8">2</data>
-  <data key="d9">0.5</data>
-  <data key="d10">20.379718</data>
-  <data key="d11">1</data>
-</edge>
-<edge source="João Miranda de Souza Filho" target="Fernando Luiz Roza">
-  <data key="d8">3</data>
-  <data key="d9">0.3333333333333333</data>
-  <data key="d10">14.168228833333332</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="João Miranda de Souza Filho" target="Thiago Emiliano da Silva">
-  <data key="d8">6</data>
-  <data key="d9">0.16666666666666666</data>
-  <data key="d10">16.855763</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="João Miranda de Souza Filho" target="Philippe Coutinho Correia">
-  <data key="d8">2</data>
-  <data key="d9">0.5</data>
-  <data key="d10">7.651722749999999</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="João Miranda de Souza Filho" target="Neymar da Silva Santos Junior">
-  <data key="d8">3</data>
-  <data key="d9">0.3333333333333333</data>
-  <data key="d10">18.459100666666668</data>
-  <data key="d11">2</data>
-</edge>
-<edge source="João Miranda de Souza Filho" target="José Paulo Bezzera Maciel Júnior">
-  <data key="d8">2</data>
-  <data key="d9">0.5</data>
-  <data key="d10">11.9087052</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="João Miranda de Souza Filho" target="Marcelo Vieira da Silva Júnior">
-  <data key="d8">6</data>
-  <data key="d9">0.16666666666666666</data>
-  <data key="d10">27.120556833333335</data>
-  <data key="d11">2</data>
-</edge>
-<edge source="Marcelo Vieira da Silva Júnior" target="Fernando Luiz Roza">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">23.021729</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Marcelo Vieira da Silva Júnior" target="Gabriel Fernando de Jesus">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">35.128338</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Marcelo Vieira da Silva Júnior" target="Thiago Emiliano da Silva">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">18.027756</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Marcelo Vieira da Silva Júnior" target="Philippe Coutinho Correia">
-  <data key="d8">13</data>
-  <data key="d9">0.07692307692307693</data>
-  <data key="d10">12.343656615384615</data>
-  <data key="d11">1</data>
-</edge>
-<edge source="Marcelo Vieira da Silva Júnior" target="Neymar da Silva Santos Junior">
-  <data key="d8">12</data>
-  <data key="d9">0.08333333333333333</data>
-  <data key="d10">12.523184333333333</data>
-  <data key="d11">4</data>
-</edge>
-<edge source="Marcelo Vieira da Silva Júnior" target="João Miranda de Souza Filho">
-  <data key="d8">4</data>
-  <data key="d9">0.25</data>
-  <data key="d10">18.407753</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Fágner Conserva Lemos" target="Thiago Emiliano da Silva">
-  <data key="d8">7</data>
-  <data key="d9">0.14285714285714285</data>
-  <data key="d10">15.962194642857144</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Fágner Conserva Lemos" target="Willian Borges da Silva">
-  <data key="d8">5</data>
-  <data key="d9">0.2</data>
-  <data key="d10">14.107476600000002</data>
-  <data key="d11">2</data>
-</edge>
-<edge source="Fágner Conserva Lemos" target="José Paulo Bezzera Maciel Júnior">
-  <data key="d8">4</data>
-  <data key="d9">0.25</data>
-  <data key="d10">9.24715275</data>
-  <data key="d11">1</data>
-</edge>
-<edge source="Fágner Conserva Lemos" target="Alisson Ramsés Becker">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">35.468296</data>
-  <data key="d11">0</data>
-</edge>
-<edge source="Fágner Conserva Lemos" target="Marcelo Vieira da Silva Júnior">
-  <data key="d8">1</data>
-  <data key="d9">1.0</data>
-  <data key="d10">12.0415945</data>
-  <data key="d11">1</data>
-</edge>
-</graph></graphml>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="progressive_passes" attr.type="long" />
+  <key id="d12" for="edge" attr.name="avg_distance" attr.type="double" />
+  <key id="d11" for="edge" attr.name="distance" attr.type="double" />
+  <key id="d10" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d9" for="node" attr.name="passes_received" attr.type="long" />
+  <key id="d8" for="node" attr.name="passes_made" attr.type="long" />
+  <key id="d7" for="node" attr.name="avg_y" attr.type="double" />
+  <key id="d6" for="node" attr.name="avg_x" attr.type="double" />
+  <key id="d5" for="node" attr.name="nominal_position" attr.type="string" />
+  <key id="d4" for="node" attr.name="tactical_line" attr.type="string" />
+  <key id="d3" for="node" attr.name="team" attr.type="string" />
+  <key id="d2" for="node" attr.name="player_id" attr.type="long" />
+  <key id="d1" for="graph" attr.name="team_name" attr.type="string" />
+  <key id="d0" for="graph" attr.name="match_id" attr.type="int" />
+  <graph edgedefault="directed">
+    <node id="Fernando Luiz Roza">
+      <data key="d2">3054</data>
+      <data key="d3">Brazil</data>
+      <data key="d4">Unknown</data>
+      <data key="d5">Unknown</data>
+      <data key="d6">60.30769230769231</data>
+      <data key="d7">38.53846153846154</data>
+      <data key="d8">26</data>
+      <data key="d9">22</data>
+    </node>
+    <node id="Gabriel Fernando de Jesus">
+      <data key="d2">3202</data>
+      <data key="d3">Brazil</data>
+      <data key="d4">Unknown</data>
+      <data key="d5">Unknown</data>
+      <data key="d6">100.66666666666667</data>
+      <data key="d7">29.666666666666668</data>
+      <data key="d8">3</data>
+      <data key="d9">4</data>
+    </node>
+    <node id="Thiago Emiliano da Silva">
+      <data key="d2">3295</data>
+      <data key="d3">Brazil</data>
+      <data key="d4">Unknown</data>
+      <data key="d5">Unknown</data>
+      <data key="d6">43.2962962962963</data>
+      <data key="d7">49.888888888888886</data>
+      <data key="d8">27</data>
+      <data key="d9">26</data>
+    </node>
+    <node id="Willian Borges da Silva">
+      <data key="d2">3472</data>
+      <data key="d3">Brazil</data>
+      <data key="d4">Unknown</data>
+      <data key="d5">Unknown</data>
+      <data key="d6">83.6</data>
+      <data key="d7">62.13333333333333</data>
+      <data key="d8">15</data>
+      <data key="d9">18</data>
+    </node>
+    <node id="Philippe Coutinho Correia">
+      <data key="d2">3501</data>
+      <data key="d3">Brazil</data>
+      <data key="d4">Unknown</data>
+      <data key="d5">Unknown</data>
+      <data key="d6">74.55882352941177</data>
+      <data key="d7">23.0</data>
+      <data key="d8">34</data>
+      <data key="d9">36</data>
+    </node>
+    <node id="Neymar da Silva Santos Junior">
+      <data key="d2">4320</data>
+      <data key="d3">Brazil</data>
+      <data key="d4">Unknown</data>
+      <data key="d5">Unknown</data>
+      <data key="d6">87.92</data>
+      <data key="d7">17.72</data>
+      <data key="d8">25</data>
+      <data key="d9">29</data>
+    </node>
+    <node id="José Paulo Bezzera Maciel Júnior">
+      <data key="d2">5542</data>
+      <data key="d3">Brazil</data>
+      <data key="d4">Unknown</data>
+      <data key="d5">Unknown</data>
+      <data key="d6">63.68181818181818</data>
+      <data key="d7">50.45454545454545</data>
+      <data key="d8">22</data>
+      <data key="d9">24</data>
+    </node>
+    <node id="Alisson Ramsés Becker">
+      <data key="d2">5547</data>
+      <data key="d3">Brazil</data>
+      <data key="d4">Unknown</data>
+      <data key="d5">Unknown</data>
+      <data key="d6">8.5</data>
+      <data key="d7">43.5</data>
+      <data key="d8">2</data>
+      <data key="d9">1</data>
+    </node>
+    <node id="João Miranda de Souza Filho">
+      <data key="d2">5551</data>
+      <data key="d3">Brazil</data>
+      <data key="d4">Unknown</data>
+      <data key="d5">Unknown</data>
+      <data key="d6">47.04545454545455</data>
+      <data key="d7">26.90909090909091</data>
+      <data key="d8">22</data>
+      <data key="d9">19</data>
+    </node>
+    <node id="Marcelo Vieira da Silva Júnior">
+      <data key="d2">5552</data>
+      <data key="d3">Brazil</data>
+      <data key="d4">Unknown</data>
+      <data key="d5">Unknown</data>
+      <data key="d6">71.59375</data>
+      <data key="d7">10.21875</data>
+      <data key="d8">32</data>
+      <data key="d9">33</data>
+    </node>
+    <node id="Fágner Conserva Lemos">
+      <data key="d2">5838</data>
+      <data key="d3">Brazil</data>
+      <data key="d4">Unknown</data>
+      <data key="d5">Unknown</data>
+      <data key="d6">54.833333333333336</data>
+      <data key="d7">71.5</data>
+      <data key="d8">18</data>
+      <data key="d9">14</data>
+    </node>
+    <edge source="Fernando Luiz Roza" target="Thiago Emiliano da Silva">
+      <data key="d10">2</data>
+      <data key="d11">0.5</data>
+      <data key="d12">12.32258</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Fernando Luiz Roza" target="Willian Borges da Silva">
+      <data key="d10">5</data>
+      <data key="d11">0.2</data>
+      <data key="d12">25.0133334</data>
+      <data key="d13">2</data>
+    </edge>
+    <edge source="Fernando Luiz Roza" target="Philippe Coutinho Correia">
+      <data key="d10">6</data>
+      <data key="d11">0.16666666666666666</data>
+      <data key="d12">15.310130666666666</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="Fernando Luiz Roza" target="Neymar da Silva Santos Junior">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">29.068884</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Fernando Luiz Roza" target="José Paulo Bezzera Maciel Júnior">
+      <data key="d10">6</data>
+      <data key="d11">0.16666666666666666</data>
+      <data key="d12">12.506152083333333</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="Fernando Luiz Roza" target="João Miranda de Souza Filho">
+      <data key="d10">2</data>
+      <data key="d11">0.5</data>
+      <data key="d12">5.61226785</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Fernando Luiz Roza" target="Marcelo Vieira da Silva Júnior">
+      <data key="d10">2</data>
+      <data key="d11">0.5</data>
+      <data key="d12">19.5256415</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Fernando Luiz Roza" target="Fágner Conserva Lemos">
+      <data key="d10">2</data>
+      <data key="d11">0.5</data>
+      <data key="d12">16.569077</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Gabriel Fernando de Jesus" target="Philippe Coutinho Correia">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">10.630146</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Gabriel Fernando de Jesus" target="Neymar da Silva Santos Junior">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">11.661903</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Gabriel Fernando de Jesus" target="José Paulo Bezzera Maciel Júnior">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">5.0</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Thiago Emiliano da Silva" target="Fernando Luiz Roza">
+      <data key="d10">2</data>
+      <data key="d11">0.5</data>
+      <data key="d12">16.3459035</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="Thiago Emiliano da Silva" target="Gabriel Fernando de Jesus">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">12.206555</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Thiago Emiliano da Silva" target="Willian Borges da Silva">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">36.05551</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="Thiago Emiliano da Silva" target="Philippe Coutinho Correia">
+      <data key="d10">3</data>
+      <data key="d11">0.3333333333333333</data>
+      <data key="d12">26.242958666666667</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="Thiago Emiliano da Silva" target="Neymar da Silva Santos Junior">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">55.03635</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="Thiago Emiliano da Silva" target="José Paulo Bezzera Maciel Júnior">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">14.21267</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Thiago Emiliano da Silva" target="João Miranda de Souza Filho">
+      <data key="d10">8</data>
+      <data key="d11">0.125</data>
+      <data key="d12">20.999306875</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Thiago Emiliano da Silva" target="Marcelo Vieira da Silva Júnior">
+      <data key="d10">4</data>
+      <data key="d11">0.25</data>
+      <data key="d12">36.1488195</data>
+      <data key="d13">3</data>
+    </edge>
+    <edge source="Thiago Emiliano da Silva" target="Fágner Conserva Lemos">
+      <data key="d10">6</data>
+      <data key="d11">0.16666666666666666</data>
+      <data key="d12">25.35380166666667</data>
+      <data key="d13">2</data>
+    </edge>
+    <edge source="Willian Borges da Silva" target="Fernando Luiz Roza">
+      <data key="d10">3</data>
+      <data key="d11">0.3333333333333333</data>
+      <data key="d12">11.8438649</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="Willian Borges da Silva" target="Thiago Emiliano da Silva">
+      <data key="d10">2</data>
+      <data key="d11">0.5</data>
+      <data key="d12">28.9364365</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Willian Borges da Silva" target="Philippe Coutinho Correia">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">39.012817</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Willian Borges da Silva" target="Neymar da Silva Santos Junior">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">16.552946</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Willian Borges da Silva" target="José Paulo Bezzera Maciel Júnior">
+      <data key="d10">6</data>
+      <data key="d11">0.16666666666666666</data>
+      <data key="d12">18.429494666666667</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="Willian Borges da Silva" target="João Miranda de Souza Filho">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">33.30165</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Willian Borges da Silva" target="Marcelo Vieira da Silva Júnior">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">36.124783</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Philippe Coutinho Correia" target="Fernando Luiz Roza">
+      <data key="d10">9</data>
+      <data key="d11">0.1111111111111111</data>
+      <data key="d12">11.803186577777778</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Philippe Coutinho Correia" target="Thiago Emiliano da Silva">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">16.492422</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Philippe Coutinho Correia" target="Willian Borges da Silva">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">51.351727</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Philippe Coutinho Correia" target="Neymar da Silva Santos Junior">
+      <data key="d10">10</data>
+      <data key="d11">0.1</data>
+      <data key="d12">12.571235900000001</data>
+      <data key="d13">5</data>
+    </edge>
+    <edge source="Philippe Coutinho Correia" target="José Paulo Bezzera Maciel Júnior">
+      <data key="d10">4</data>
+      <data key="d11">0.25</data>
+      <data key="d12">13.75361775</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Philippe Coutinho Correia" target="Marcelo Vieira da Silva Júnior">
+      <data key="d10">9</data>
+      <data key="d11">0.1111111111111111</data>
+      <data key="d12">17.900693833333335</data>
+      <data key="d13">4</data>
+    </edge>
+    <edge source="Neymar da Silva Santos Junior" target="Fernando Luiz Roza">
+      <data key="d10">3</data>
+      <data key="d11">0.3333333333333333</data>
+      <data key="d12">18.738026333333334</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Neymar da Silva Santos Junior" target="Gabriel Fernando de Jesus">
+      <data key="d10">2</data>
+      <data key="d11">0.5</data>
+      <data key="d12">16.662277</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Neymar da Silva Santos Junior" target="Thiago Emiliano da Silva">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">37.12142</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Neymar da Silva Santos Junior" target="Willian Borges da Silva">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">25.079872</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Neymar da Silva Santos Junior" target="Philippe Coutinho Correia">
+      <data key="d10">7</data>
+      <data key="d11">0.14285714285714285</data>
+      <data key="d12">10.0137845</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Neymar da Silva Santos Junior" target="João Miranda de Souza Filho">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">14.0</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Neymar da Silva Santos Junior" target="Marcelo Vieira da Silva Júnior">
+      <data key="d10">10</data>
+      <data key="d11">0.1</data>
+      <data key="d12">12.806154900000001</data>
+      <data key="d13">3</data>
+    </edge>
+    <edge source="José Paulo Bezzera Maciel Júnior" target="Fernando Luiz Roza">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">17.20465</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="José Paulo Bezzera Maciel Júnior" target="Thiago Emiliano da Silva">
+      <data key="d10">4</data>
+      <data key="d11">0.25</data>
+      <data key="d12">10.325087925</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="José Paulo Bezzera Maciel Júnior" target="Willian Borges da Silva">
+      <data key="d10">5</data>
+      <data key="d11">0.2</data>
+      <data key="d12">19.6455792</data>
+      <data key="d13">2</data>
+    </edge>
+    <edge source="José Paulo Bezzera Maciel Júnior" target="Philippe Coutinho Correia">
+      <data key="d10">3</data>
+      <data key="d11">0.3333333333333333</data>
+      <data key="d12">15.873757666666664</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="José Paulo Bezzera Maciel Júnior" target="João Miranda de Souza Filho">
+      <data key="d10">3</data>
+      <data key="d11">0.3333333333333333</data>
+      <data key="d12">10.564464000000001</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="José Paulo Bezzera Maciel Júnior" target="Fágner Conserva Lemos">
+      <data key="d10">6</data>
+      <data key="d11">0.16666666666666666</data>
+      <data key="d12">16.554349333333334</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Alisson Ramsés Becker" target="Thiago Emiliano da Silva">
+      <data key="d10">2</data>
+      <data key="d11">0.5</data>
+      <data key="d12">20.379718</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="João Miranda de Souza Filho" target="Fernando Luiz Roza">
+      <data key="d10">3</data>
+      <data key="d11">0.3333333333333333</data>
+      <data key="d12">14.168228833333332</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="João Miranda de Souza Filho" target="Thiago Emiliano da Silva">
+      <data key="d10">6</data>
+      <data key="d11">0.16666666666666666</data>
+      <data key="d12">16.855763</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="João Miranda de Souza Filho" target="Philippe Coutinho Correia">
+      <data key="d10">2</data>
+      <data key="d11">0.5</data>
+      <data key="d12">7.651722749999999</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="João Miranda de Souza Filho" target="Neymar da Silva Santos Junior">
+      <data key="d10">3</data>
+      <data key="d11">0.3333333333333333</data>
+      <data key="d12">18.459100666666668</data>
+      <data key="d13">2</data>
+    </edge>
+    <edge source="João Miranda de Souza Filho" target="José Paulo Bezzera Maciel Júnior">
+      <data key="d10">2</data>
+      <data key="d11">0.5</data>
+      <data key="d12">11.9087052</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="João Miranda de Souza Filho" target="Marcelo Vieira da Silva Júnior">
+      <data key="d10">6</data>
+      <data key="d11">0.16666666666666666</data>
+      <data key="d12">27.120556833333335</data>
+      <data key="d13">2</data>
+    </edge>
+    <edge source="Marcelo Vieira da Silva Júnior" target="Fernando Luiz Roza">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">23.021729</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Marcelo Vieira da Silva Júnior" target="Gabriel Fernando de Jesus">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">35.128338</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Marcelo Vieira da Silva Júnior" target="Thiago Emiliano da Silva">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">18.027756</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Marcelo Vieira da Silva Júnior" target="Philippe Coutinho Correia">
+      <data key="d10">13</data>
+      <data key="d11">0.07692307692307693</data>
+      <data key="d12">12.343656615384615</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="Marcelo Vieira da Silva Júnior" target="Neymar da Silva Santos Junior">
+      <data key="d10">12</data>
+      <data key="d11">0.08333333333333333</data>
+      <data key="d12">12.523184333333333</data>
+      <data key="d13">4</data>
+    </edge>
+    <edge source="Marcelo Vieira da Silva Júnior" target="João Miranda de Souza Filho">
+      <data key="d10">4</data>
+      <data key="d11">0.25</data>
+      <data key="d12">18.407753</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Fágner Conserva Lemos" target="Thiago Emiliano da Silva">
+      <data key="d10">7</data>
+      <data key="d11">0.14285714285714285</data>
+      <data key="d12">15.962194642857144</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Fágner Conserva Lemos" target="Willian Borges da Silva">
+      <data key="d10">5</data>
+      <data key="d11">0.2</data>
+      <data key="d12">14.107476600000002</data>
+      <data key="d13">2</data>
+    </edge>
+    <edge source="Fágner Conserva Lemos" target="José Paulo Bezzera Maciel Júnior">
+      <data key="d10">4</data>
+      <data key="d11">0.25</data>
+      <data key="d12">9.24715275</data>
+      <data key="d13">1</data>
+    </edge>
+    <edge source="Fágner Conserva Lemos" target="Alisson Ramsés Becker">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">35.468296</data>
+      <data key="d13">0</data>
+    </edge>
+    <edge source="Fágner Conserva Lemos" target="Marcelo Vieira da Silva Júnior">
+      <data key="d10">1</data>
+      <data key="d11">1.0</data>
+      <data key="d12">12.0415945</data>
+      <data key="d13">1</data>
+    </edge>
+    <data key="d0">8650</data>
+    <data key="d1">Brazil</data>
+  </graph>
+</graphml>
