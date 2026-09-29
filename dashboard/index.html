@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Passing Networks & Player Impact Dashboard | FIFA World Cup Analytics</title>
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- D3.js for Network Graph rendering -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Navigation Header -->
+        <header class="app-header">
+            <div class="brand">
+                <div class="brand-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                <div class="brand-text">
+                    <h1>Football Passing Networks <span>& Player Impact</span></h1>
+                    <p>StatsBomb Open Data • FIFA World Cup Analytics</p>
+                </div>
+            </div>
+
+            <!-- Filter Controls Bar -->
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label for="country-select"><i class="fa-solid fa-flag"></i> Country</label>
+                    <select id="country-select">
+                        <option value="">Loading countries...</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="match-select"><i class="fa-solid fa-trophy"></i> Match</label>
+                    <select id="match-select">
+                        <option value="">Select country first</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="player-select"><i class="fa-solid fa-user"></i> Player</label>
+                    <select id="player-select">
+                        <option value="ALL">All Team Players</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Dashboard Content -->
+        <main class="dashboard-grid">
+            <!-- KPI Summary Cards Bar -->
+            <section class="kpi-bar">
+                <div class="kpi-card">
+                    <div class="kpi-icon blue"><i class="fa-solid fa-futbol"></i></div>
+                    <div class="kpi-details">
+                        <span class="kpi-label">Completed Passes</span>
+                        <h2 id="kpi-pass-count">0</h2>
+                        <span class="kpi-sub" id="kpi-sub-pass">Stable 11 Lineup</span>
+                    </div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-icon cyan"><i class="fa-solid fa-bolt"></i></div>
+                    <div class="kpi-details">
+                        <span class="kpi-label">Progressive Passes</span>
+                        <h2 id="kpi-prog-pct">0%</h2>
+                        <span class="kpi-sub" id="kpi-prog-count">0 passes (>10m forward)</span>
+                    </div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-icon gold"><i class="fa-solid fa-bullseye"></i></div>
+                    <div class="kpi-details">
+                        <span class="kpi-label">Goal/Key Pass Actions</span>
+                        <h2 id="kpi-goal-passes">0</h2>
+                        <span class="kpi-sub">Penetrative / Assist actions</span>
+                    </div>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-icon purple"><i class="fa-solid fa-crown"></i></div>
+                    <div class="kpi-details">
+                        <span class="kpi-label">Top Playmaker</span>
+                        <h2 id="kpi-playmaker">None</h2>
+                        <span class="kpi-sub" id="kpi-playmaker-share">0% Betweenness Share</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Center Panel: Interactive Tactical Pitch Canvas -->
+            <section class="pitch-container card-panel">
+                <div class="panel-header">
+                    <div class="panel-title">
+                        <i class="fa-solid fa-layer-group"></i> Tactical Pitch Pass Map
+                        <span class="match-badge" id="current-match-badge">Match Overview</span>
+                    </div>
+
+                    <!-- Pass Type Toggle Controls -->
+                    <div class="toggle-group">
+                        <button class="toggle-btn active" data-type="ALL"><i class="fa-solid fa-border-all"></i> All Passes</button>
+                        <button class="toggle-btn" data-type="PROG"><i class="fa-solid fa-arrow-trend-up"></i> Progressive (>10m)</button>
+                        <button class="toggle-btn" data-type="GOAL"><i class="fa-solid fa-star"></i> Goal / Key Passes</button>
+                        <button class="toggle-btn" data-type="PRESS"><i class="fa-solid fa-shield-halved"></i> Under Pressure</button>
+                    </div>
+                </div>
+
+                <div class="pitch-wrapper">
+                    <canvas id="pitch-canvas" width="960" height="600"></canvas>
+                    <div id="pitch-tooltip" class="tooltip hidden"></div>
+                </div>
+            </section>
+
+            <!-- Right Panel: Network Centrality & Player Impact -->
+            <aside class="sidebar-panel card-panel">
+                <div class="panel-header">
+                    <div class="panel-title"><i class="fa-solid fa-chart-line"></i> Player Network Centrality & Impact</div>
+                </div>
+
+                <!-- Selected Player Impact Card -->
+                <div class="player-impact-card" id="player-impact-card">
+                    <div class="player-avatar"><i class="fa-solid fa-user-gear"></i></div>
+                    <div class="player-info">
+                        <h3 id="card-player-name">Select a Player</h3>
+                        <p id="card-player-team">Click on node or select from dropdown</p>
+                    </div>
+                </div>
+
+                <!-- Player Centrality Metrics Grid -->
+                <div class="metrics-grid">
+                    <div class="metric-box">
+                        <span class="metric-name">Betweenness Centrality</span>
+                        <div class="metric-value" id="m-betweenness">0.000</div>
+                        <div class="metric-bar"><div class="bar-fill cyan" id="b-betweenness" style="width: 0%"></div></div>
+                        <span class="metric-desc">Broker of passing traffic</span>
+                    </div>
+
+                    <div class="metric-box">
+                        <span class="metric-name">Eigenvector Centrality</span>
+                        <div class="metric-value" id="m-eigenvector">0.000</div>
+                        <div class="metric-bar"><div class="bar-fill purple" id="b-eigenvector" style="width: 0%"></div></div>
+                        <span class="metric-desc">Connectedness to key players</span>
+                    </div>
+
+                    <div class="metric-box">
+                        <span class="metric-name">Disruption Power</span>
+                        <div class="metric-value" id="m-disruption">0.0%</div>
+                        <div class="metric-bar"><div class="bar-fill red" id="b-disruption" style="width: 0%"></div></div>
+                        <span class="metric-desc">Team efficiency drop if marked</span>
+                    </div>
+
+                    <div class="metric-box">
+                        <span class="metric-name">Pass Distribution</span>
+                        <div class="metric-value" id="m-passes">0</div>
+                        <div class="metric-bar"><div class="bar-fill gold" id="b-passes" style="width: 0%"></div></div>
+                        <span class="metric-desc">Total passes completed</span>
+                    </div>
+                </div>
+
+                <!-- D3 Passing Network Graph -->
+                <div class="network-graph-container">
+                    <div class="subpanel-title"><i class="fa-solid fa-network-wired"></i> Passing Network Structure</div>
+                    <div id="d3-network-graph"></div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <!-- Dashboard App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
