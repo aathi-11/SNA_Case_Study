@@ -153,22 +153,6 @@ Choose one team and write a short opposition report:
 - Identify the playmaker and the community structure.
 - **Vulnerability test:** remove the top-betweenness player from the graph and measure the drop in global efficiency. A large drop means the team relies heavily on that player.
 
-### Step 9: Write the report
-
-Map each section to the rubric (each criterion is scored out of 10).
-
-| Rubric criterion | What to include |
-|---|---|
-| Introduction & Context | Research question, why SNA fits passing data, scouting relevance |
-| Network Data Collection & Sources | StatsBomb Open Data, why it is credible, filtering rules, node/edge definitions |
-| Network Modeling & Methodology | Justify every metric, the `1/weight` distance choice, Louvain and how instability is handled |
-| Analysis & Interpretation | Test results, effect sizes, possession confound, tactical meaning of the numbers |
-| Visualization & Graph Representation | Pitch overlays, box plots, community colouring, captioned figures |
-| Discussion & Implications | Scouting use, removal experiment, limitations, future work |
-| Conclusion & Summary | Key findings and contribution |
-| Overall Clarity & Presentation | Consistent structure, labelled figures, a short methods flowchart |
-
-**What moves the report into the top band:** justify every method choice, and go beyond description with the statistical tests, the confound control and the removal experiment.
 
 ---
 
